@@ -1,0 +1,35 @@
+[DEBUG] 2023-11-29 15:46:29.258 [restartedMain] ConfigurationPropertySourcesPropertyResolver$DefaultResolver - Found key 'spring.liveBeansView.mbeanDomain' in PropertySource 'systemProperties' with value of type String
+[INFO ] 2023-11-29 15:46:29.263 [restartedMain] VueAndJavaApplication - Started VueAndJavaApplication in 1.793 seconds (JVM running for 2.702)
+[DEBUG] 2023-11-29 15:46:29.264 [restartedMain] ApplicationAvailabilityBean - Application availability state LivenessState changed to CORRECT
+[DEBUG] 2023-11-29 15:46:29.265 [restartedMain] Restarter - Creating new Restarter for thread Thread[main,5,main]
+[DEBUG] 2023-11-29 15:46:29.265 [restartedMain] Restarter - Immediately restarting application
+[DEBUG] 2023-11-29 15:46:29.265 [restartedMain] Restarter - Starting application org.williard.VueAndJava.VueAndJavaApplication with URLs [file:/C:/Users/mwilliard/git/sandbox/VueAndJava/build/classes/java/main/, file:/C:/Users/mwilliard/git/sandbox/VueAndJava/build/resources/main/]
+[DEBUG] 2023-11-29 15:46:29.266 [restartedMain] ApplicationAvailabilityBean - Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+[INFO ] 2023-11-29 15:47:04.344 [http-nio-8080-exec-1] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[DEBUG] 2023-11-29 15:47:04.344 [http-nio-8080-exec-1] DispatcherServlet - Detected StandardServletMultipartResolver
+[DEBUG] 2023-11-29 15:47:04.344 [http-nio-8080-exec-1] DispatcherServlet - Detected AcceptHeaderLocaleResolver
+[DEBUG] 2023-11-29 15:47:04.345 [http-nio-8080-exec-1] DispatcherServlet - Detected FixedThemeResolver
+[DEBUG] 2023-11-29 15:47:04.345 [http-nio-8080-exec-1] DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@19ba504
+[DEBUG] 2023-11-29 15:47:04.345 [http-nio-8080-exec-1] DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@d1962d
+[DEBUG] 2023-11-29 15:47:04.345 [http-nio-8080-exec-1] DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+[INFO ] 2023-11-29 15:47:04.345 [http-nio-8080-exec-1] DispatcherServlet - Completed initialization in 1 ms
+[DEBUG] 2023-11-29 15:47:04.352 [http-nio-8080-exec-1] DispatcherServlet - GET "/api/v1/define/shit", parameters={}
+[DEBUG] 2023-11-29 15:47:04.356 [http-nio-8080-exec-1] RequestMappingHandlerMapping - Mapped to org.williard.VueAndJava.controller.DefinitionController#getInvoices(String)
+[DEBUG] 2023-11-29 15:47:04.366 [http-nio-8080-exec-1] DefinitionController - Debug level log message
+[INFO ] 2023-11-29 15:47:04.366 [http-nio-8080-exec-1] DefinitionController - Info level log message
+[WARN ] 2023-11-29 15:47:04.366 [http-nio-8080-exec-1] DefinitionController - Warn level log message
+[ERROR] 2023-11-29 15:47:04.366 [http-nio-8080-exec-1] DefinitionController - Error level log message
+[FATAL] 2023-11-29 15:47:04.366 [http-nio-8080-exec-1] DefinitionController - Fatal level log message
+[DEBUG] 2023-11-29 15:47:04.441 [http-nio-8080-exec-1] RestTemplate - HTTP GET https://api.dictionaryapi.dev/api/v2/entries/en/shit
+[DEBUG] 2023-11-29 15:47:04.448 [http-nio-8080-exec-1] RestTemplate - Accept=[application/json, application/*+json]
+[DEBUG] 2023-11-29 15:47:04.968 [http-nio-8080-exec-1] RestTemplate - Response 200 OK
+[DEBUG] 2023-11-29 15:47:04.968 [http-nio-8080-exec-1] RestTemplate - Reading to [java.util.List<org.williard.VueAndJava.dto.DictionaryDto>]
+[DEBUG] 2023-11-29 15:47:05.020 [http-nio-8080-exec-1] HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[DEBUG] 2023-11-29 15:47:05.021 [http-nio-8080-exec-1] HttpEntityMethodProcessor - Writing [[Meaning(partOfSpeech=noun, definitions=[Definition(definition=Solid excretory product evacuated fro (truncated)...]
+[DEBUG] 2023-11-29 15:47:05.036 [http-nio-8080-exec-1] DispatcherServlet - Completed 200 OK
+[DEBUG] 2023-11-29 15:54:14.810 [SpringApplicationShutdownHook] ApplicationAvailabilityBean - Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+[DEBUG] 2023-11-29 15:54:14.811 [SpringApplicationShutdownHook] AnnotationConfigServletWebServerApplicationContext - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1955e57, started on Wed Nov 29 15:46:27 EST 2023
+[DEBUG] 2023-11-29 15:54:14.811 [SpringApplicationShutdownHook] ConfigurationPropertySourcesPropertyResolver$DefaultResolver - Found key 'spring.liveBeansView.mbeanDomain' in PropertySource 'systemProperties' with value of type String
+[DEBUG] 2023-11-29 15:54:14.812 [SpringApplicationShutdownHook] DefaultLifecycleProcessor - Stopping beans in phase 2147483647
+[DEBUG] 2023-11-29 15:54:14.813 [SpringApplicationShutdownHook] DefaultLifecycleProcessor - Bean 'webServerGracefulShutdown' completed its stop procedure
+[DEBUG] 2023-11-29 15:54:14.813 [SpringApplicationShutdownHook] DefaultLifecycleProcessor - Stopping beans in phase 2147483646

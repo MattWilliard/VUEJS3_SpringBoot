@@ -1,0 +1,5 @@
+server:
+  port: 8081
+
+dictionary:
+  apiUrl: https://api.dictionaryapi.dev/api/v2/entries/en/

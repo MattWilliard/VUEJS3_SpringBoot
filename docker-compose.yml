@@ -1,0 +1,22 @@
+version: '3.9'
+services:
+  db:
+    # Location of the Dockerfile to be run for the json-server.
+    build: ./src/frontend/data
+    ports:
+      - 5000:5000
+    # This volume defines where the actual db data will be stored in the container.
+    # This is a 2-way binding, any data written to the containers /data directory is also written to the local /data directory.
+    volumes:
+      - ./src/frontend/data:/data
+  vue:
+    # Location of the Dockerfile to be run for the json-server.
+    build: ./src/frontend
+    ports:
+      - 8080:8080
+  backend:
+    # Location of the Dockerfile to be run for the application.
+    build: ./
+    ports:
+      - 8081:8081
+

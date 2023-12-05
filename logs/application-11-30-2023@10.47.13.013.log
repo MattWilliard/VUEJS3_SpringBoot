@@ -1,0 +1,662 @@
+[DEBUG] 2023-11-30 10:11:25.057 [restartedMain] ConfigurationPropertySourcesPropertyResolver$DefaultResolver - Found key 'spring.liveBeansView.mbeanDomain' in PropertySource 'systemProperties' with value of type String
+[INFO ] 2023-11-30 10:11:25.064 [restartedMain] VueAndJavaApplication - Started VueAndJavaApplication in 1.8 seconds (JVM running for 2.717)
+[DEBUG] 2023-11-30 10:11:25.065 [restartedMain] ApplicationAvailabilityBean - Application availability state LivenessState changed to CORRECT
+[DEBUG] 2023-11-30 10:11:25.066 [restartedMain] Restarter - Creating new Restarter for thread Thread[main,5,main]
+[DEBUG] 2023-11-30 10:11:25.066 [restartedMain] Restarter - Immediately restarting application
+[DEBUG] 2023-11-30 10:11:25.066 [restartedMain] Restarter - Starting application org.williard.VueAndJava.VueAndJavaApplication with URLs [file:/C:/Users/mwilliard/git/sandbox/VueAndJava/build/classes/java/main/, file:/C:/Users/mwilliard/git/sandbox/VueAndJava/build/resources/main/]
+[DEBUG] 2023-11-30 10:11:25.067 [restartedMain] ApplicationAvailabilityBean - Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+[INFO ] 2023-11-30 10:12:03.507 [http-nio-8081-exec-1] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[DEBUG] 2023-11-30 10:12:03.508 [http-nio-8081-exec-1] DispatcherServlet - Detected StandardServletMultipartResolver
+[DEBUG] 2023-11-30 10:12:03.508 [http-nio-8081-exec-1] DispatcherServlet - Detected AcceptHeaderLocaleResolver
+[DEBUG] 2023-11-30 10:12:03.508 [http-nio-8081-exec-1] DispatcherServlet - Detected FixedThemeResolver
+[DEBUG] 2023-11-30 10:12:03.508 [http-nio-8081-exec-1] DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@98a375
+[DEBUG] 2023-11-30 10:12:03.508 [http-nio-8081-exec-1] DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@a84464
+[DEBUG] 2023-11-30 10:12:03.508 [http-nio-8081-exec-1] DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+[INFO ] 2023-11-30 10:12:03.508 [http-nio-8081-exec-1] DispatcherServlet - Completed initialization in 1 ms
+[DEBUG] 2023-11-30 10:12:03.519 [http-nio-8081-exec-1] DispatcherServlet - GET "/api/v1/define/kill", parameters={}
+[DEBUG] 2023-11-30 10:12:03.523 [http-nio-8081-exec-1] RequestMappingHandlerMapping - Mapped to org.williard.VueAndJava.controller.DefinitionController#getInvoices(String)
+[DEBUG] 2023-11-30 10:12:03.533 [http-nio-8081-exec-1] DefinitionController - Debug level log message
+[INFO ] 2023-11-30 10:12:03.533 [http-nio-8081-exec-1] DefinitionController - Info level log message
+[WARN ] 2023-11-30 10:12:03.533 [http-nio-8081-exec-1] DefinitionController - Warn level log message
+[ERROR] 2023-11-30 10:12:03.533 [http-nio-8081-exec-1] DefinitionController - Error level log message
+[FATAL] 2023-11-30 10:12:03.533 [http-nio-8081-exec-1] DefinitionController - Fatal level log message
+[DEBUG] 2023-11-30 10:12:03.606 [http-nio-8081-exec-1] RestTemplate - HTTP GET https://api.dictionaryapi.dev/api/v2/entries/en/kill
+[DEBUG] 2023-11-30 10:12:03.613 [http-nio-8081-exec-1] RestTemplate - Accept=[application/json, application/*+json]
+[DEBUG] 2023-11-30 10:12:04.131 [http-nio-8081-exec-1] RestTemplate - Response 200 OK
+[DEBUG] 2023-11-30 10:12:04.132 [http-nio-8081-exec-1] RestTemplate - Reading to [java.util.List<org.williard.VueAndJava.dto.DictionaryDto>]
+[DEBUG] 2023-11-30 10:12:04.188 [http-nio-8081-exec-1] HttpEntityMethodProcessor - Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/json, application/*+json]
+[DEBUG] 2023-11-30 10:12:04.188 [http-nio-8081-exec-1] HttpEntityMethodProcessor - Writing [DictionaryDto(word=kill, phonetics=[Phonetic(audio=https://api.dictionaryapi.dev/media/pronunciation (truncated)...]
+[DEBUG] 2023-11-30 10:12:04.204 [http-nio-8081-exec-1] DispatcherServlet - Completed 200 OK
+[DEBUG] 2023-11-30 10:12:08.692 [http-nio-8081-exec-2] DispatcherServlet - GET "/api/v1/define/kill", parameters={}
+[DEBUG] 2023-11-30 10:12:08.693 [http-nio-8081-exec-2] RequestMappingHandlerMapping - Mapped to org.williard.VueAndJava.controller.DefinitionController#getInvoices(String)
+[DEBUG] 2023-11-30 10:12:08.693 [http-nio-8081-exec-2] DefinitionController - Debug level log message
+[INFO ] 2023-11-30 10:12:08.693 [http-nio-8081-exec-2] DefinitionController - Info level log message
+[WARN ] 2023-11-30 10:12:08.693 [http-nio-8081-exec-2] DefinitionController - Warn level log message
+[ERROR] 2023-11-30 10:12:08.694 [http-nio-8081-exec-2] DefinitionController - Error level log message
+[FATAL] 2023-11-30 10:12:08.694 [http-nio-8081-exec-2] DefinitionController - Fatal level log message
+[DEBUG] 2023-11-30 10:12:08.694 [http-nio-8081-exec-2] RestTemplate - HTTP GET https://api.dictionaryapi.dev/api/v2/entries/en/kill
+[DEBUG] 2023-11-30 10:12:08.695 [http-nio-8081-exec-2] RestTemplate - Accept=[application/json, application/*+json]
+[DEBUG] 2023-11-30 10:12:08.787 [http-nio-8081-exec-2] RestTemplate - Response 200 OK
+[DEBUG] 2023-11-30 10:12:08.787 [http-nio-8081-exec-2] RestTemplate - Reading to [java.util.List<org.williard.VueAndJava.dto.DictionaryDto>]
+[DEBUG] 2023-11-30 10:12:08.788 [http-nio-8081-exec-2] HttpEntityMethodProcessor - Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/json, application/*+json]
+[DEBUG] 2023-11-30 10:12:08.788 [http-nio-8081-exec-2] HttpEntityMethodProcessor - Writing [DictionaryDto(word=kill, phonetics=[Phonetic(audio=https://api.dictionaryapi.dev/media/pronunciation (truncated)...]
+[DEBUG] 2023-11-30 10:12:08.789 [http-nio-8081-exec-2] DispatcherServlet - Completed 200 OK
+[DEBUG] 2023-11-30 10:12:17.817 [http-nio-8081-exec-3] DispatcherServlet - GET "/api/v1/define/kill", parameters={}
+[DEBUG] 2023-11-30 10:12:17.818 [http-nio-8081-exec-3] RequestMappingHandlerMapping - Mapped to org.williard.VueAndJava.controller.DefinitionController#getInvoices(String)
+[DEBUG] 2023-11-30 10:12:17.819 [http-nio-8081-exec-3] DefinitionController - Debug level log message
+[INFO ] 2023-11-30 10:12:17.819 [http-nio-8081-exec-3] DefinitionController - Info level log message
+[WARN ] 2023-11-30 10:12:17.819 [http-nio-8081-exec-3] DefinitionController - Warn level log message
+[ERROR] 2023-11-30 10:12:17.819 [http-nio-8081-exec-3] DefinitionController - Error level log message
+[FATAL] 2023-11-30 10:12:17.819 [http-nio-8081-exec-3] DefinitionController - Fatal level log message
+[DEBUG] 2023-11-30 10:12:17.819 [http-nio-8081-exec-3] RestTemplate - HTTP GET https://api.dictionaryapi.dev/api/v2/entries/en/kill
+[DEBUG] 2023-11-30 10:12:17.820 [http-nio-8081-exec-3] RestTemplate - Accept=[application/json, application/*+json]
+[DEBUG] 2023-11-30 10:12:18.059 [http-nio-8081-exec-3] RestTemplate - Response 200 OK
+[DEBUG] 2023-11-30 10:12:18.060 [http-nio-8081-exec-3] RestTemplate - Reading to [java.util.List<org.williard.VueAndJava.dto.DictionaryDto>]
+[DEBUG] 2023-11-30 10:12:18.062 [http-nio-8081-exec-3] HttpEntityMethodProcessor - Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/json, application/*+json]
+[DEBUG] 2023-11-30 10:12:18.062 [http-nio-8081-exec-3] HttpEntityMethodProcessor - Writing [DictionaryDto(word=kill, phonetics=[Phonetic(audio=https://api.dictionaryapi.dev/media/pronunciation (truncated)...]
+[DEBUG] 2023-11-30 10:12:18.063 [http-nio-8081-exec-3] DispatcherServlet - Completed 200 OK
+[DEBUG] 2023-11-30 10:12:34.521 [http-nio-8081-exec-4] DispatcherServlet - GET "/api/v1/define/kill", parameters={}
+[DEBUG] 2023-11-30 10:12:34.521 [http-nio-8081-exec-4] RequestMappingHandlerMapping - Mapped to org.williard.VueAndJava.controller.DefinitionController#getInvoices(String)
+[DEBUG] 2023-11-30 10:12:34.522 [http-nio-8081-exec-4] DefinitionController - Debug level log message
+[INFO ] 2023-11-30 10:12:34.522 [http-nio-8081-exec-4] DefinitionController - Info level log message
+[WARN ] 2023-11-30 10:12:34.522 [http-nio-8081-exec-4] DefinitionController - Warn level log message
+[ERROR] 2023-11-30 10:12:34.522 [http-nio-8081-exec-4] DefinitionController - Error level log message
+[FATAL] 2023-11-30 10:12:34.522 [http-nio-8081-exec-4] DefinitionController - Fatal level log message
+[DEBUG] 2023-11-30 10:12:34.523 [http-nio-8081-exec-4] RestTemplate - HTTP GET https://api.dictionaryapi.dev/api/v2/entries/en/kill
+[DEBUG] 2023-11-30 10:12:34.523 [http-nio-8081-exec-4] RestTemplate - Accept=[application/json, application/*+json]
+[DEBUG] 2023-11-30 10:12:34.767 [http-nio-8081-exec-4] RestTemplate - Response 200 OK
+[DEBUG] 2023-11-30 10:12:34.767 [http-nio-8081-exec-4] RestTemplate - Reading to [java.util.List<org.williard.VueAndJava.dto.DictionaryDto>]
+[DEBUG] 2023-11-30 10:12:34.769 [http-nio-8081-exec-4] HttpEntityMethodProcessor - Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/json, application/*+json]
+[DEBUG] 2023-11-30 10:12:34.769 [http-nio-8081-exec-4] HttpEntityMethodProcessor - Writing [DictionaryDto(word=kill, phonetics=[Phonetic(audio=https://api.dictionaryapi.dev/media/pronunciation (truncated)...]
+[DEBUG] 2023-11-30 10:12:34.769 [http-nio-8081-exec-4] DispatcherServlet - Completed 200 OK
+[DEBUG] 2023-11-30 10:12:58.258 [http-nio-8081-exec-5] DispatcherServlet - GET "/api/v1/define/hello", parameters={}
+[DEBUG] 2023-11-30 10:12:58.259 [http-nio-8081-exec-5] RequestMappingHandlerMapping - Mapped to org.williard.VueAndJava.controller.DefinitionController#getInvoices(String)
+[DEBUG] 2023-11-30 10:12:58.259 [http-nio-8081-exec-5] DefinitionController - Debug level log message
+[INFO ] 2023-11-30 10:12:58.259 [http-nio-8081-exec-5] DefinitionController - Info level log message
+[WARN ] 2023-11-30 10:12:58.259 [http-nio-8081-exec-5] DefinitionController - Warn level log message
+[ERROR] 2023-11-30 10:12:58.259 [http-nio-8081-exec-5] DefinitionController - Error level log message
+[FATAL] 2023-11-30 10:12:58.259 [http-nio-8081-exec-5] DefinitionController - Fatal level log message
+[DEBUG] 2023-11-30 10:12:58.259 [http-nio-8081-exec-5] RestTemplate - HTTP GET https://api.dictionaryapi.dev/api/v2/entries/en/hello
+[DEBUG] 2023-11-30 10:12:58.259 [http-nio-8081-exec-5] RestTemplate - Accept=[application/json, application/*+json]
+[DEBUG] 2023-11-30 10:12:58.478 [http-nio-8081-exec-5] RestTemplate - Response 200 OK
+[DEBUG] 2023-11-30 10:12:58.479 [http-nio-8081-exec-5] RestTemplate - Reading to [java.util.List<org.williard.VueAndJava.dto.DictionaryDto>]
+[DEBUG] 2023-11-30 10:12:58.481 [http-nio-8081-exec-5] HttpEntityMethodProcessor - Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/json, application/*+json]
+[DEBUG] 2023-11-30 10:12:58.481 [http-nio-8081-exec-5] HttpEntityMethodProcessor - Writing [DictionaryDto(word=hello, phonetics=[Phonetic(audio=https://api.dictionaryapi.dev/media/pronunciatio (truncated)...]
+[DEBUG] 2023-11-30 10:12:58.482 [http-nio-8081-exec-5] DispatcherServlet - Completed 200 OK
+[DEBUG] 2023-11-30 10:13:35.515 [http-nio-8081-exec-6] DispatcherServlet - GET "/api/v1/define/cabaret", parameters={}
+[DEBUG] 2023-11-30 10:13:35.515 [http-nio-8081-exec-6] RequestMappingHandlerMapping - Mapped to org.williard.VueAndJava.controller.DefinitionController#getInvoices(String)
+[DEBUG] 2023-11-30 10:13:35.516 [http-nio-8081-exec-6] DefinitionController - Debug level log message
+[INFO ] 2023-11-30 10:13:35.516 [http-nio-8081-exec-6] DefinitionController - Info level log message
+[WARN ] 2023-11-30 10:13:35.516 [http-nio-8081-exec-6] DefinitionController - Warn level log message
+[ERROR] 2023-11-30 10:13:35.516 [http-nio-8081-exec-6] DefinitionController - Error level log message
+[FATAL] 2023-11-30 10:13:35.516 [http-nio-8081-exec-6] DefinitionController - Fatal level log message
+[DEBUG] 2023-11-30 10:13:39.082 [http-nio-8081-exec-6] RestTemplate - HTTP GET https://api.dictionaryapi.dev/api/v2/entries/en/cabaret
+[DEBUG] 2023-11-30 10:13:39.082 [http-nio-8081-exec-6] RestTemplate - Accept=[application/json, application/*+json]
+[DEBUG] 2023-11-30 10:13:39.397 [http-nio-8081-exec-6] RestTemplate - Response 200 OK
+[DEBUG] 2023-11-30 10:13:39.398 [http-nio-8081-exec-6] RestTemplate - Reading to [java.util.List<org.williard.VueAndJava.dto.DictionaryDto>]
+[DEBUG] 2023-11-30 10:13:39.400 [http-nio-8081-exec-6] HttpEntityMethodProcessor - Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/json, application/*+json]
+[DEBUG] 2023-11-30 10:13:39.400 [http-nio-8081-exec-6] HttpEntityMethodProcessor - Writing [DictionaryDto(word=cabaret, phonetics=[Phonetic(audio=, sourceUrl=null, license=null, text=/kæbəˈreɪ (truncated)...]
+[DEBUG] 2023-11-30 10:13:39.401 [http-nio-8081-exec-6] DispatcherServlet - Completed 200 OK
+[DEBUG] 2023-11-30 10:14:03.796 [http-nio-8081-exec-7] DispatcherServlet - GET "/api/v1/define/crush", parameters={}
+[DEBUG] 2023-11-30 10:14:03.797 [http-nio-8081-exec-7] RequestMappingHandlerMapping - Mapped to org.williard.VueAndJava.controller.DefinitionController#getInvoices(String)
+[DEBUG] 2023-11-30 10:14:03.797 [http-nio-8081-exec-7] DefinitionController - Debug level log message
+[INFO ] 2023-11-30 10:14:03.797 [http-nio-8081-exec-7] DefinitionController - Info level log message
+[WARN ] 2023-11-30 10:14:03.798 [http-nio-8081-exec-7] DefinitionController - Warn level log message
+[ERROR] 2023-11-30 10:14:03.798 [http-nio-8081-exec-7] DefinitionController - Error level log message
+[FATAL] 2023-11-30 10:14:03.798 [http-nio-8081-exec-7] DefinitionController - Fatal level log message
+[DEBUG] 2023-11-30 10:14:06.793 [http-nio-8081-exec-7] RestTemplate - HTTP GET https://api.dictionaryapi.dev/api/v2/entries/en/crush
+[DEBUG] 2023-11-30 10:14:06.793 [http-nio-8081-exec-7] RestTemplate - Accept=[application/json, application/*+json]
+[DEBUG] 2023-11-30 10:14:07.036 [http-nio-8081-exec-7] RestTemplate - Response 200 OK
+[DEBUG] 2023-11-30 10:14:07.036 [http-nio-8081-exec-7] RestTemplate - Reading to [java.util.List<org.williard.VueAndJava.dto.DictionaryDto>]
+[DEBUG] 2023-11-30 10:14:07.038 [http-nio-8081-exec-7] HttpEntityMethodProcessor - Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/json, application/*+json]
+[DEBUG] 2023-11-30 10:14:07.038 [http-nio-8081-exec-7] HttpEntityMethodProcessor - Writing [DictionaryDto(word=crush, phonetics=[Phonetic(audio=https://api.dictionaryapi.dev/media/pronunciatio (truncated)...]
+[DEBUG] 2023-11-30 10:14:07.039 [http-nio-8081-exec-7] DispatcherServlet - Completed 200 OK
+[DEBUG] 2023-11-30 10:14:52.934 [http-nio-8081-exec-8] DispatcherServlet - GET "/api/v1/define/crush", parameters={}
+[DEBUG] 2023-11-30 10:14:52.935 [http-nio-8081-exec-8] RequestMappingHandlerMapping - Mapped to org.williard.VueAndJava.controller.DefinitionController#getInvoices(String)
+[DEBUG] 2023-11-30 10:14:52.935 [http-nio-8081-exec-8] DefinitionController - Debug level log message
+[INFO ] 2023-11-30 10:14:52.935 [http-nio-8081-exec-8] DefinitionController - Info level log message
+[WARN ] 2023-11-30 10:14:52.935 [http-nio-8081-exec-8] DefinitionController - Warn level log message
+[ERROR] 2023-11-30 10:14:52.935 [http-nio-8081-exec-8] DefinitionController - Error level log message
+[FATAL] 2023-11-30 10:14:52.935 [http-nio-8081-exec-8] DefinitionController - Fatal level log message
+[DEBUG] 2023-11-30 10:14:56.908 [http-nio-8081-exec-8] RestTemplate - HTTP GET https://api.dictionaryapi.dev/api/v2/entries/en/crush
+[DEBUG] 2023-11-30 10:14:56.908 [http-nio-8081-exec-8] RestTemplate - Accept=[application/json, application/*+json]
+[DEBUG] 2023-11-30 10:14:57.274 [http-nio-8081-exec-8] RestTemplate - Response 200 OK
+[DEBUG] 2023-11-30 10:14:57.275 [http-nio-8081-exec-8] RestTemplate - Reading to [java.util.List<org.williard.VueAndJava.dto.DictionaryDto>]
+[DEBUG] 2023-11-30 10:14:57.278 [http-nio-8081-exec-8] HttpEntityMethodProcessor - Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/json, application/*+json]
+[DEBUG] 2023-11-30 10:14:57.278 [http-nio-8081-exec-8] HttpEntityMethodProcessor - Writing [DictionaryDto(word=crush, phonetics=[Phonetic(audio=https://api.dictionaryapi.dev/media/pronunciatio (truncated)...]
+[DEBUG] 2023-11-30 10:14:57.280 [http-nio-8081-exec-8] DispatcherServlet - Completed 200 OK
+[DEBUG] 2023-11-30 10:15:55.578 [http-nio-8081-exec-9] DispatcherServlet - GET "/api/v1/define/fort", parameters={}
+[DEBUG] 2023-11-30 10:15:55.578 [http-nio-8081-exec-9] RequestMappingHandlerMapping - Mapped to org.williard.VueAndJava.controller.DefinitionController#getInvoices(String)
+[DEBUG] 2023-11-30 10:15:55.579 [http-nio-8081-exec-9] DefinitionController - Debug level log message
+[INFO ] 2023-11-30 10:15:55.579 [http-nio-8081-exec-9] DefinitionController - Info level log message
+[WARN ] 2023-11-30 10:15:55.579 [http-nio-8081-exec-9] DefinitionController - Warn level log message
+[ERROR] 2023-11-30 10:15:55.579 [http-nio-8081-exec-9] DefinitionController - Error level log message
+[FATAL] 2023-11-30 10:15:55.579 [http-nio-8081-exec-9] DefinitionController - Fatal level log message
+[DEBUG] 2023-11-30 10:15:55.580 [http-nio-8081-exec-9] RestTemplate - HTTP GET https://api.dictionaryapi.dev/api/v2/entries/en/fort
+[DEBUG] 2023-11-30 10:15:55.580 [http-nio-8081-exec-9] RestTemplate - Accept=[application/json, application/*+json]
+[DEBUG] 2023-11-30 10:15:55.813 [http-nio-8081-exec-9] RestTemplate - Response 200 OK
+[DEBUG] 2023-11-30 10:15:55.813 [http-nio-8081-exec-9] RestTemplate - Reading to [java.util.List<org.williard.VueAndJava.dto.DictionaryDto>]
+[DEBUG] 2023-11-30 10:15:55.814 [http-nio-8081-exec-9] HttpEntityMethodProcessor - Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/json, application/*+json]
+[DEBUG] 2023-11-30 10:15:55.814 [http-nio-8081-exec-9] HttpEntityMethodProcessor - Writing [DictionaryDto(word=fort, phonetics=[Phonetic(audio=, sourceUrl=null, license=null, text=/fɔːt/), Pho (truncated)...]
+[DEBUG] 2023-11-30 10:15:55.815 [http-nio-8081-exec-9] DispatcherServlet - Completed 200 OK
+[DEBUG] 2023-11-30 10:20:07.576 [http-nio-8081-exec-10] DispatcherServlet - GET "/api/v1/define/eviscerate", parameters={}
+[DEBUG] 2023-11-30 10:20:07.577 [http-nio-8081-exec-10] RequestMappingHandlerMapping - Mapped to org.williard.VueAndJava.controller.DefinitionController#getInvoices(String)
+[DEBUG] 2023-11-30 10:20:07.577 [http-nio-8081-exec-10] DefinitionController - Debug level log message
+[INFO ] 2023-11-30 10:20:07.577 [http-nio-8081-exec-10] DefinitionController - Info level log message
+[WARN ] 2023-11-30 10:20:07.577 [http-nio-8081-exec-10] DefinitionController - Warn level log message
+[ERROR] 2023-11-30 10:20:07.577 [http-nio-8081-exec-10] DefinitionController - Error level log message
+[FATAL] 2023-11-30 10:20:07.577 [http-nio-8081-exec-10] DefinitionController - Fatal level log message
+[DEBUG] 2023-11-30 10:20:07.577 [http-nio-8081-exec-10] RestTemplate - HTTP GET https://api.dictionaryapi.dev/api/v2/entries/en/eviscerate
+[DEBUG] 2023-11-30 10:20:07.577 [http-nio-8081-exec-10] RestTemplate - Accept=[application/json, application/*+json]
+[DEBUG] 2023-11-30 10:20:07.902 [http-nio-8081-exec-10] RestTemplate - Response 200 OK
+[DEBUG] 2023-11-30 10:20:07.903 [http-nio-8081-exec-10] RestTemplate - Reading to [java.util.List<org.williard.VueAndJava.dto.DictionaryDto>]
+[DEBUG] 2023-11-30 10:20:07.904 [http-nio-8081-exec-10] HttpEntityMethodProcessor - Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/json, application/*+json]
+[DEBUG] 2023-11-30 10:20:07.904 [http-nio-8081-exec-10] HttpEntityMethodProcessor - Writing [DictionaryDto(word=eviscerate, phonetics=[Phonetic(audio=https://api.dictionaryapi.dev/media/pronunc (truncated)...]
+[DEBUG] 2023-11-30 10:20:07.905 [http-nio-8081-exec-10] DispatcherServlet - Completed 200 OK
+[DEBUG] 2023-11-30 10:20:53.426 [http-nio-8081-exec-1] DispatcherServlet - GET "/api/v1/define/clamor", parameters={}
+[DEBUG] 2023-11-30 10:20:53.426 [http-nio-8081-exec-1] RequestMappingHandlerMapping - Mapped to org.williard.VueAndJava.controller.DefinitionController#getInvoices(String)
+[DEBUG] 2023-11-30 10:20:53.427 [http-nio-8081-exec-1] DefinitionController - Debug level log message
+[INFO ] 2023-11-30 10:20:53.427 [http-nio-8081-exec-1] DefinitionController - Info level log message
+[WARN ] 2023-11-30 10:20:53.427 [http-nio-8081-exec-1] DefinitionController - Warn level log message
+[ERROR] 2023-11-30 10:20:53.427 [http-nio-8081-exec-1] DefinitionController - Error level log message
+[FATAL] 2023-11-30 10:20:53.427 [http-nio-8081-exec-1] DefinitionController - Fatal level log message
+[DEBUG] 2023-11-30 10:20:53.427 [http-nio-8081-exec-1] RestTemplate - HTTP GET https://api.dictionaryapi.dev/api/v2/entries/en/clamor
+[DEBUG] 2023-11-30 10:20:53.427 [http-nio-8081-exec-1] RestTemplate - Accept=[application/json, application/*+json]
+[DEBUG] 2023-11-30 10:20:53.660 [http-nio-8081-exec-1] RestTemplate - Response 200 OK
+[DEBUG] 2023-11-30 10:20:53.661 [http-nio-8081-exec-1] RestTemplate - Reading to [java.util.List<org.williard.VueAndJava.dto.DictionaryDto>]
+[DEBUG] 2023-11-30 10:20:53.662 [http-nio-8081-exec-1] HttpEntityMethodProcessor - Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/json, application/*+json]
+[DEBUG] 2023-11-30 10:20:53.662 [http-nio-8081-exec-1] HttpEntityMethodProcessor - Writing [DictionaryDto(word=clamor, phonetics=[Phonetic(audio=, sourceUrl=null, license=null, text=/ˈklæm.ə/) (truncated)...]
+[DEBUG] 2023-11-30 10:20:53.663 [http-nio-8081-exec-1] DispatcherServlet - Completed 200 OK
+[DEBUG] 2023-11-30 10:21:58.939 [http-nio-8081-exec-2] DispatcherServlet - GET "/api/v1/define/clamor", parameters={}
+[DEBUG] 2023-11-30 10:21:58.939 [http-nio-8081-exec-2] RequestMappingHandlerMapping - Mapped to org.williard.VueAndJava.controller.DefinitionController#getInvoices(String)
+[DEBUG] 2023-11-30 10:21:58.940 [http-nio-8081-exec-2] DefinitionController - Debug level log message
+[INFO ] 2023-11-30 10:21:58.940 [http-nio-8081-exec-2] DefinitionController - Info level log message
+[WARN ] 2023-11-30 10:21:58.940 [http-nio-8081-exec-2] DefinitionController - Warn level log message
+[ERROR] 2023-11-30 10:21:58.940 [http-nio-8081-exec-2] DefinitionController - Error level log message
+[FATAL] 2023-11-30 10:21:58.940 [http-nio-8081-exec-2] DefinitionController - Fatal level log message
+[DEBUG] 2023-11-30 10:21:58.940 [http-nio-8081-exec-2] RestTemplate - HTTP GET https://api.dictionaryapi.dev/api/v2/entries/en/clamor
+[DEBUG] 2023-11-30 10:21:58.941 [http-nio-8081-exec-2] RestTemplate - Accept=[application/json, application/*+json]
+[DEBUG] 2023-11-30 10:21:59.247 [http-nio-8081-exec-2] RestTemplate - Response 200 OK
+[DEBUG] 2023-11-30 10:21:59.248 [http-nio-8081-exec-2] RestTemplate - Reading to [java.util.List<org.williard.VueAndJava.dto.DictionaryDto>]
+[DEBUG] 2023-11-30 10:21:59.249 [http-nio-8081-exec-2] HttpEntityMethodProcessor - Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/json, application/*+json]
+[DEBUG] 2023-11-30 10:21:59.249 [http-nio-8081-exec-2] HttpEntityMethodProcessor - Writing [DictionaryDto(word=clamor, phonetics=[Phonetic(audio=, sourceUrl=null, license=null, text=/ˈklæm.ə/) (truncated)...]
+[DEBUG] 2023-11-30 10:21:59.250 [http-nio-8081-exec-2] DispatcherServlet - Completed 200 OK
+[DEBUG] 2023-11-30 10:22:30.475 [http-nio-8081-exec-3] DispatcherServlet - GET "/api/v1/define/disinterested", parameters={}
+[DEBUG] 2023-11-30 10:22:30.476 [http-nio-8081-exec-3] RequestMappingHandlerMapping - Mapped to org.williard.VueAndJava.controller.DefinitionController#getInvoices(String)
+[DEBUG] 2023-11-30 10:22:30.476 [http-nio-8081-exec-3] DefinitionController - Debug level log message
+[INFO ] 2023-11-30 10:22:30.476 [http-nio-8081-exec-3] DefinitionController - Info level log message
+[WARN ] 2023-11-30 10:22:30.476 [http-nio-8081-exec-3] DefinitionController - Warn level log message
+[ERROR] 2023-11-30 10:22:30.476 [http-nio-8081-exec-3] DefinitionController - Error level log message
+[FATAL] 2023-11-30 10:22:30.476 [http-nio-8081-exec-3] DefinitionController - Fatal level log message
+[DEBUG] 2023-11-30 10:22:30.477 [http-nio-8081-exec-3] RestTemplate - HTTP GET https://api.dictionaryapi.dev/api/v2/entries/en/disinterested
+[DEBUG] 2023-11-30 10:22:30.477 [http-nio-8081-exec-3] RestTemplate - Accept=[application/json, application/*+json]
+[DEBUG] 2023-11-30 10:22:30.705 [http-nio-8081-exec-3] RestTemplate - Response 200 OK
+[DEBUG] 2023-11-30 10:22:30.705 [http-nio-8081-exec-3] RestTemplate - Reading to [java.util.List<org.williard.VueAndJava.dto.DictionaryDto>]
+[DEBUG] 2023-11-30 10:22:30.706 [http-nio-8081-exec-3] HttpEntityMethodProcessor - Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/json, application/*+json]
+[DEBUG] 2023-11-30 10:22:30.707 [http-nio-8081-exec-3] HttpEntityMethodProcessor - Writing [DictionaryDto(word=disinterested, phonetics=[Phonetic(audio=https://api.dictionaryapi.dev/media/pron (truncated)...]
+[DEBUG] 2023-11-30 10:22:30.707 [http-nio-8081-exec-3] DispatcherServlet - Completed 200 OK
+[DEBUG] 2023-11-30 10:23:21.820 [http-nio-8081-exec-4] DispatcherServlet - GET "/api/v1/define/clout", parameters={}
+[DEBUG] 2023-11-30 10:23:21.820 [http-nio-8081-exec-4] RequestMappingHandlerMapping - Mapped to org.williard.VueAndJava.controller.DefinitionController#getInvoices(String)
+[DEBUG] 2023-11-30 10:23:21.821 [http-nio-8081-exec-4] DefinitionController - Debug level log message
+[INFO ] 2023-11-30 10:23:21.821 [http-nio-8081-exec-4] DefinitionController - Info level log message
+[WARN ] 2023-11-30 10:23:21.821 [http-nio-8081-exec-4] DefinitionController - Warn level log message
+[ERROR] 2023-11-30 10:23:21.821 [http-nio-8081-exec-4] DefinitionController - Error level log message
+[FATAL] 2023-11-30 10:23:21.821 [http-nio-8081-exec-4] DefinitionController - Fatal level log message
+[DEBUG] 2023-11-30 10:23:21.821 [http-nio-8081-exec-4] RestTemplate - HTTP GET https://api.dictionaryapi.dev/api/v2/entries/en/clout
+[DEBUG] 2023-11-30 10:23:21.822 [http-nio-8081-exec-4] RestTemplate - Accept=[application/json, application/*+json]
+[DEBUG] 2023-11-30 10:23:22.237 [http-nio-8081-exec-4] RestTemplate - Response 200 OK
+[DEBUG] 2023-11-30 10:23:22.237 [http-nio-8081-exec-4] RestTemplate - Reading to [java.util.List<org.williard.VueAndJava.dto.DictionaryDto>]
+[DEBUG] 2023-11-30 10:23:22.238 [http-nio-8081-exec-4] HttpEntityMethodProcessor - Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/json, application/*+json]
+[DEBUG] 2023-11-30 10:23:22.238 [http-nio-8081-exec-4] HttpEntityMethodProcessor - Writing [DictionaryDto(word=clout, phonetics=[Phonetic(audio=, sourceUrl=null, license=null, text=/klʌʊt/), P (truncated)...]
+[DEBUG] 2023-11-30 10:23:22.239 [http-nio-8081-exec-4] DispatcherServlet - Completed 200 OK
+[DEBUG] 2023-11-30 10:25:14.271 [http-nio-8081-exec-5] DispatcherServlet - GET "/api/v1/define/clout", parameters={}
+[DEBUG] 2023-11-30 10:25:14.271 [http-nio-8081-exec-5] RequestMappingHandlerMapping - Mapped to org.williard.VueAndJava.controller.DefinitionController#getInvoices(String)
+[DEBUG] 2023-11-30 10:25:14.271 [http-nio-8081-exec-5] DefinitionController - Debug level log message
+[INFO ] 2023-11-30 10:25:14.272 [http-nio-8081-exec-5] DefinitionController - Info level log message
+[WARN ] 2023-11-30 10:25:14.272 [http-nio-8081-exec-5] DefinitionController - Warn level log message
+[ERROR] 2023-11-30 10:25:14.272 [http-nio-8081-exec-5] DefinitionController - Error level log message
+[FATAL] 2023-11-30 10:25:14.272 [http-nio-8081-exec-5] DefinitionController - Fatal level log message
+[DEBUG] 2023-11-30 10:25:14.272 [http-nio-8081-exec-5] RestTemplate - HTTP GET https://api.dictionaryapi.dev/api/v2/entries/en/clout
+[DEBUG] 2023-11-30 10:25:14.272 [http-nio-8081-exec-5] RestTemplate - Accept=[application/json, application/*+json]
+[DEBUG] 2023-11-30 10:25:14.587 [http-nio-8081-exec-5] RestTemplate - Response 200 OK
+[DEBUG] 2023-11-30 10:25:14.587 [http-nio-8081-exec-5] RestTemplate - Reading to [java.util.List<org.williard.VueAndJava.dto.DictionaryDto>]
+[DEBUG] 2023-11-30 10:25:14.588 [http-nio-8081-exec-5] HttpEntityMethodProcessor - Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/json, application/*+json]
+[DEBUG] 2023-11-30 10:25:14.588 [http-nio-8081-exec-5] HttpEntityMethodProcessor - Writing [DictionaryDto(word=clout, phonetics=[Phonetic(audio=, sourceUrl=null, license=null, text=/klʌʊt/), P (truncated)...]
+[DEBUG] 2023-11-30 10:25:14.589 [http-nio-8081-exec-5] DispatcherServlet - Completed 200 OK
+[DEBUG] 2023-11-30 10:25:38.978 [http-nio-8081-exec-6] DispatcherServlet - GET "/api/v1/define/clout", parameters={}
+[DEBUG] 2023-11-30 10:25:38.978 [http-nio-8081-exec-6] RequestMappingHandlerMapping - Mapped to org.williard.VueAndJava.controller.DefinitionController#getInvoices(String)
+[DEBUG] 2023-11-30 10:25:38.979 [http-nio-8081-exec-6] DefinitionController - Debug level log message
+[INFO ] 2023-11-30 10:25:38.979 [http-nio-8081-exec-6] DefinitionController - Info level log message
+[WARN ] 2023-11-30 10:25:38.979 [http-nio-8081-exec-6] DefinitionController - Warn level log message
+[ERROR] 2023-11-30 10:25:38.979 [http-nio-8081-exec-6] DefinitionController - Error level log message
+[FATAL] 2023-11-30 10:25:38.979 [http-nio-8081-exec-6] DefinitionController - Fatal level log message
+[DEBUG] 2023-11-30 10:25:38.980 [http-nio-8081-exec-6] RestTemplate - HTTP GET https://api.dictionaryapi.dev/api/v2/entries/en/clout
+[DEBUG] 2023-11-30 10:25:38.980 [http-nio-8081-exec-6] RestTemplate - Accept=[application/json, application/*+json]
+[DEBUG] 2023-11-30 10:25:39.204 [http-nio-8081-exec-6] RestTemplate - Response 200 OK
+[DEBUG] 2023-11-30 10:25:39.204 [http-nio-8081-exec-6] RestTemplate - Reading to [java.util.List<org.williard.VueAndJava.dto.DictionaryDto>]
+[DEBUG] 2023-11-30 10:25:39.205 [http-nio-8081-exec-6] HttpEntityMethodProcessor - Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/json, application/*+json]
+[DEBUG] 2023-11-30 10:25:39.205 [http-nio-8081-exec-6] HttpEntityMethodProcessor - Writing [DictionaryDto(word=clout, phonetics=[Phonetic(audio=, sourceUrl=null, license=null, text=/klʌʊt/), P (truncated)...]
+[DEBUG] 2023-11-30 10:25:39.206 [http-nio-8081-exec-6] DispatcherServlet - Completed 200 OK
+[DEBUG] 2023-11-30 10:26:08.007 [http-nio-8081-exec-7] DispatcherServlet - GET "/api/v1/define/principal", parameters={}
+[DEBUG] 2023-11-30 10:26:08.008 [http-nio-8081-exec-7] RequestMappingHandlerMapping - Mapped to org.williard.VueAndJava.controller.DefinitionController#getInvoices(String)
+[DEBUG] 2023-11-30 10:26:08.008 [http-nio-8081-exec-7] DefinitionController - Debug level log message
+[INFO ] 2023-11-30 10:26:08.008 [http-nio-8081-exec-7] DefinitionController - Info level log message
+[WARN ] 2023-11-30 10:26:08.008 [http-nio-8081-exec-7] DefinitionController - Warn level log message
+[ERROR] 2023-11-30 10:26:08.008 [http-nio-8081-exec-7] DefinitionController - Error level log message
+[FATAL] 2023-11-30 10:26:08.009 [http-nio-8081-exec-7] DefinitionController - Fatal level log message
+[DEBUG] 2023-11-30 10:26:08.009 [http-nio-8081-exec-7] RestTemplate - HTTP GET https://api.dictionaryapi.dev/api/v2/entries/en/principal
+[DEBUG] 2023-11-30 10:26:08.009 [http-nio-8081-exec-7] RestTemplate - Accept=[application/json, application/*+json]
+[DEBUG] 2023-11-30 10:26:08.238 [http-nio-8081-exec-7] RestTemplate - Response 200 OK
+[DEBUG] 2023-11-30 10:26:08.238 [http-nio-8081-exec-7] RestTemplate - Reading to [java.util.List<org.williard.VueAndJava.dto.DictionaryDto>]
+[DEBUG] 2023-11-30 10:26:08.239 [http-nio-8081-exec-7] HttpEntityMethodProcessor - Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/json, application/*+json]
+[DEBUG] 2023-11-30 10:26:08.240 [http-nio-8081-exec-7] HttpEntityMethodProcessor - Writing [DictionaryDto(word=principal, phonetics=[Phonetic(audio=https://api.dictionaryapi.dev/media/pronunci (truncated)...]
+[DEBUG] 2023-11-30 10:26:08.240 [http-nio-8081-exec-7] DispatcherServlet - Completed 200 OK
+[DEBUG] 2023-11-30 10:39:28.812 [http-nio-8081-exec-8] DispatcherServlet - GET "/api/v1/define/holy", parameters={}
+[DEBUG] 2023-11-30 10:39:28.813 [http-nio-8081-exec-8] RequestMappingHandlerMapping - Mapped to org.williard.VueAndJava.controller.DefinitionController#getInvoices(String)
+[DEBUG] 2023-11-30 10:39:28.813 [http-nio-8081-exec-8] DefinitionController - Debug level log message
+[INFO ] 2023-11-30 10:39:28.813 [http-nio-8081-exec-8] DefinitionController - Info level log message
+[WARN ] 2023-11-30 10:39:28.813 [http-nio-8081-exec-8] DefinitionController - Warn level log message
+[ERROR] 2023-11-30 10:39:28.813 [http-nio-8081-exec-8] DefinitionController - Error level log message
+[FATAL] 2023-11-30 10:39:28.813 [http-nio-8081-exec-8] DefinitionController - Fatal level log message
+[DEBUG] 2023-11-30 10:39:28.813 [http-nio-8081-exec-8] RestTemplate - HTTP GET https://api.dictionaryapi.dev/api/v2/entries/en/holy
+[DEBUG] 2023-11-30 10:39:28.814 [http-nio-8081-exec-8] RestTemplate - Accept=[application/json, application/*+json]
+[DEBUG] 2023-11-30 10:39:29.219 [http-nio-8081-exec-8] RestTemplate - Response 200 OK
+[DEBUG] 2023-11-30 10:39:29.219 [http-nio-8081-exec-8] RestTemplate - Reading to [java.util.List<org.williard.VueAndJava.dto.DictionaryDto>]
+[DEBUG] 2023-11-30 10:39:29.220 [http-nio-8081-exec-8] HttpEntityMethodProcessor - Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/json, application/*+json]
+[DEBUG] 2023-11-30 10:39:29.220 [http-nio-8081-exec-8] HttpEntityMethodProcessor - Writing [DictionaryDto(word=holy, phonetics=[Phonetic(audio=, sourceUrl=null, license=null, text=/ˈhəʊli/), P (truncated)...]
+[DEBUG] 2023-11-30 10:39:29.220 [http-nio-8081-exec-8] DispatcherServlet - Completed 200 OK
+[DEBUG] 2023-11-30 10:40:07.931 [http-nio-8081-exec-9] DispatcherServlet - GET "/api/v1/define/bold", parameters={}
+[DEBUG] 2023-11-30 10:40:07.931 [http-nio-8081-exec-9] RequestMappingHandlerMapping - Mapped to org.williard.VueAndJava.controller.DefinitionController#getInvoices(String)
+[DEBUG] 2023-11-30 10:40:07.932 [http-nio-8081-exec-9] DefinitionController - Debug level log message
+[INFO ] 2023-11-30 10:40:07.932 [http-nio-8081-exec-9] DefinitionController - Info level log message
+[WARN ] 2023-11-30 10:40:07.932 [http-nio-8081-exec-9] DefinitionController - Warn level log message
+[ERROR] 2023-11-30 10:40:07.932 [http-nio-8081-exec-9] DefinitionController - Error level log message
+[FATAL] 2023-11-30 10:40:07.932 [http-nio-8081-exec-9] DefinitionController - Fatal level log message
+[DEBUG] 2023-11-30 10:40:07.932 [http-nio-8081-exec-9] RestTemplate - HTTP GET https://api.dictionaryapi.dev/api/v2/entries/en/bold
+[DEBUG] 2023-11-30 10:40:07.932 [http-nio-8081-exec-9] RestTemplate - Accept=[application/json, application/*+json]
+[DEBUG] 2023-11-30 10:40:08.158 [http-nio-8081-exec-9] RestTemplate - Response 200 OK
+[DEBUG] 2023-11-30 10:40:08.158 [http-nio-8081-exec-9] RestTemplate - Reading to [java.util.List<org.williard.VueAndJava.dto.DictionaryDto>]
+[DEBUG] 2023-11-30 10:40:08.159 [http-nio-8081-exec-9] HttpEntityMethodProcessor - Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/json, application/*+json]
+[DEBUG] 2023-11-30 10:40:08.159 [http-nio-8081-exec-9] HttpEntityMethodProcessor - Writing [DictionaryDto(word=bold, phonetics=[Phonetic(audio=, sourceUrl=null, license=null, text=/bəʊld/), Ph (truncated)...]
+[DEBUG] 2023-11-30 10:40:08.159 [http-nio-8081-exec-9] DispatcherServlet - Completed 200 OK
+[DEBUG] 2023-11-30 10:40:10.058 [http-nio-8081-exec-10] DispatcherServlet - GET "/api/v1/define/bold", parameters={}
+[DEBUG] 2023-11-30 10:40:10.059 [http-nio-8081-exec-10] RequestMappingHandlerMapping - Mapped to org.williard.VueAndJava.controller.DefinitionController#getInvoices(String)
+[DEBUG] 2023-11-30 10:40:10.059 [http-nio-8081-exec-10] DefinitionController - Debug level log message
+[INFO ] 2023-11-30 10:40:10.059 [http-nio-8081-exec-10] DefinitionController - Info level log message
+[WARN ] 2023-11-30 10:40:10.059 [http-nio-8081-exec-10] DefinitionController - Warn level log message
+[ERROR] 2023-11-30 10:40:10.059 [http-nio-8081-exec-10] DefinitionController - Error level log message
+[FATAL] 2023-11-30 10:40:10.059 [http-nio-8081-exec-10] DefinitionController - Fatal level log message
+[DEBUG] 2023-11-30 10:40:10.059 [http-nio-8081-exec-10] RestTemplate - HTTP GET https://api.dictionaryapi.dev/api/v2/entries/en/bold
+[DEBUG] 2023-11-30 10:40:10.059 [http-nio-8081-exec-10] RestTemplate - Accept=[application/json, application/*+json]
+[DEBUG] 2023-11-30 10:40:10.140 [http-nio-8081-exec-10] RestTemplate - Response 200 OK
+[DEBUG] 2023-11-30 10:40:10.140 [http-nio-8081-exec-10] RestTemplate - Reading to [java.util.List<org.williard.VueAndJava.dto.DictionaryDto>]
+[DEBUG] 2023-11-30 10:40:10.141 [http-nio-8081-exec-10] HttpEntityMethodProcessor - Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/json, application/*+json]
+[DEBUG] 2023-11-30 10:40:10.141 [http-nio-8081-exec-10] HttpEntityMethodProcessor - Writing [DictionaryDto(word=bold, phonetics=[Phonetic(audio=, sourceUrl=null, license=null, text=/bəʊld/), Ph (truncated)...]
+[DEBUG] 2023-11-30 10:40:10.142 [http-nio-8081-exec-10] DispatcherServlet - Completed 200 OK
+[DEBUG] 2023-11-30 10:40:11.266 [http-nio-8081-exec-1] DispatcherServlet - GET "/api/v1/define/bold", parameters={}
+[DEBUG] 2023-11-30 10:40:11.267 [http-nio-8081-exec-1] RequestMappingHandlerMapping - Mapped to org.williard.VueAndJava.controller.DefinitionController#getInvoices(String)
+[DEBUG] 2023-11-30 10:40:11.267 [http-nio-8081-exec-1] DefinitionController - Debug level log message
+[INFO ] 2023-11-30 10:40:11.267 [http-nio-8081-exec-1] DefinitionController - Info level log message
+[WARN ] 2023-11-30 10:40:11.267 [http-nio-8081-exec-1] DefinitionController - Warn level log message
+[ERROR] 2023-11-30 10:40:11.267 [http-nio-8081-exec-1] DefinitionController - Error level log message
+[FATAL] 2023-11-30 10:40:11.267 [http-nio-8081-exec-1] DefinitionController - Fatal level log message
+[DEBUG] 2023-11-30 10:40:11.267 [http-nio-8081-exec-1] RestTemplate - HTTP GET https://api.dictionaryapi.dev/api/v2/entries/en/bold
+[DEBUG] 2023-11-30 10:40:11.267 [http-nio-8081-exec-1] RestTemplate - Accept=[application/json, application/*+json]
+[DEBUG] 2023-11-30 10:40:11.347 [http-nio-8081-exec-1] RestTemplate - Response 200 OK
+[DEBUG] 2023-11-30 10:40:11.347 [http-nio-8081-exec-1] RestTemplate - Reading to [java.util.List<org.williard.VueAndJava.dto.DictionaryDto>]
+[DEBUG] 2023-11-30 10:40:11.348 [http-nio-8081-exec-1] HttpEntityMethodProcessor - Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/json, application/*+json]
+[DEBUG] 2023-11-30 10:40:11.348 [http-nio-8081-exec-1] HttpEntityMethodProcessor - Writing [DictionaryDto(word=bold, phonetics=[Phonetic(audio=, sourceUrl=null, license=null, text=/bəʊld/), Ph (truncated)...]
+[DEBUG] 2023-11-30 10:40:11.349 [http-nio-8081-exec-1] DispatcherServlet - Completed 200 OK
+[DEBUG] 2023-11-30 10:40:30.009 [http-nio-8081-exec-2] DispatcherServlet - GET "/api/v1/define/bold", parameters={}
+[DEBUG] 2023-11-30 10:40:30.010 [http-nio-8081-exec-2] RequestMappingHandlerMapping - Mapped to org.williard.VueAndJava.controller.DefinitionController#getInvoices(String)
+[DEBUG] 2023-11-30 10:40:30.010 [http-nio-8081-exec-2] DefinitionController - Debug level log message
+[INFO ] 2023-11-30 10:40:30.010 [http-nio-8081-exec-2] DefinitionController - Info level log message
+[WARN ] 2023-11-30 10:40:30.010 [http-nio-8081-exec-2] DefinitionController - Warn level log message
+[ERROR] 2023-11-30 10:40:30.010 [http-nio-8081-exec-2] DefinitionController - Error level log message
+[FATAL] 2023-11-30 10:40:30.010 [http-nio-8081-exec-2] DefinitionController - Fatal level log message
+[DEBUG] 2023-11-30 10:40:30.011 [http-nio-8081-exec-2] RestTemplate - HTTP GET https://api.dictionaryapi.dev/api/v2/entries/en/bold
+[DEBUG] 2023-11-30 10:40:30.011 [http-nio-8081-exec-2] RestTemplate - Accept=[application/json, application/*+json]
+[DEBUG] 2023-11-30 10:40:30.245 [http-nio-8081-exec-2] RestTemplate - Response 200 OK
+[DEBUG] 2023-11-30 10:40:30.245 [http-nio-8081-exec-2] RestTemplate - Reading to [java.util.List<org.williard.VueAndJava.dto.DictionaryDto>]
+[DEBUG] 2023-11-30 10:40:30.246 [http-nio-8081-exec-2] HttpEntityMethodProcessor - Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/json, application/*+json]
+[DEBUG] 2023-11-30 10:40:30.246 [http-nio-8081-exec-2] HttpEntityMethodProcessor - Writing [DictionaryDto(word=bold, phonetics=[Phonetic(audio=, sourceUrl=null, license=null, text=/bəʊld/), Ph (truncated)...]
+[DEBUG] 2023-11-30 10:40:30.246 [http-nio-8081-exec-2] DispatcherServlet - Completed 200 OK
+[DEBUG] 2023-11-30 10:40:44.732 [http-nio-8081-exec-3] DispatcherServlet - GET "/api/v1/define/help", parameters={}
+[DEBUG] 2023-11-30 10:40:44.732 [http-nio-8081-exec-3] RequestMappingHandlerMapping - Mapped to org.williard.VueAndJava.controller.DefinitionController#getInvoices(String)
+[DEBUG] 2023-11-30 10:40:44.732 [http-nio-8081-exec-3] DefinitionController - Debug level log message
+[INFO ] 2023-11-30 10:40:44.732 [http-nio-8081-exec-3] DefinitionController - Info level log message
+[WARN ] 2023-11-30 10:40:44.732 [http-nio-8081-exec-3] DefinitionController - Warn level log message
+[ERROR] 2023-11-30 10:40:44.732 [http-nio-8081-exec-3] DefinitionController - Error level log message
+[FATAL] 2023-11-30 10:40:44.732 [http-nio-8081-exec-3] DefinitionController - Fatal level log message
+[DEBUG] 2023-11-30 10:40:44.733 [http-nio-8081-exec-3] RestTemplate - HTTP GET https://api.dictionaryapi.dev/api/v2/entries/en/help
+[DEBUG] 2023-11-30 10:40:44.733 [http-nio-8081-exec-3] RestTemplate - Accept=[application/json, application/*+json]
+[DEBUG] 2023-11-30 10:40:45.038 [http-nio-8081-exec-3] RestTemplate - Response 200 OK
+[DEBUG] 2023-11-30 10:40:45.039 [http-nio-8081-exec-3] RestTemplate - Reading to [java.util.List<org.williard.VueAndJava.dto.DictionaryDto>]
+[DEBUG] 2023-11-30 10:40:45.040 [http-nio-8081-exec-3] HttpEntityMethodProcessor - Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/json, application/*+json]
+[DEBUG] 2023-11-30 10:40:45.040 [http-nio-8081-exec-3] HttpEntityMethodProcessor - Writing [DictionaryDto(word=help, phonetics=[Phonetic(audio=https://api.dictionaryapi.dev/media/pronunciation (truncated)...]
+[DEBUG] 2023-11-30 10:40:45.040 [http-nio-8081-exec-3] DispatcherServlet - Completed 200 OK
+[DEBUG] 2023-11-30 10:46:03.941 [SpringApplicationShutdownHook] ApplicationAvailabilityBean - Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+[DEBUG] 2023-11-30 10:46:03.942 [SpringApplicationShutdownHook] AnnotationConfigServletWebServerApplicationContext - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1afad54, started on Thu Nov 30 10:11:23 EST 2023
+[DEBUG] 2023-11-30 10:46:03.942 [SpringApplicationShutdownHook] ConfigurationPropertySourcesPropertyResolver$DefaultResolver - Found key 'spring.liveBeansView.mbeanDomain' in PropertySource 'systemProperties' with value of type String
+[DEBUG] 2023-11-30 10:46:03.943 [SpringApplicationShutdownHook] DefaultLifecycleProcessor - Stopping beans in phase 2147483647
+[DEBUG] 2023-11-30 10:46:03.945 [SpringApplicationShutdownHook] DefaultLifecycleProcessor - Bean 'webServerGracefulShutdown' completed its stop procedure
+[DEBUG] 2023-11-30 10:46:03.945 [SpringApplicationShutdownHook] DefaultLifecycleProcessor - Stopping beans in phase 2147483646
+[DEBUG] 2023-11-30 10:46:04.137 [SpringApplicationShutdownHook] DefaultLifecycleProcessor - Bean 'webServerStartStop' completed its stop procedure
+[DEBUG] 2023-11-30 10:46:04.137 [SpringApplicationShutdownHook] DefaultLifecycleProcessor - Stopping beans in phase -2147483647
+[DEBUG] 2023-11-30 10:46:04.138 [SpringApplicationShutdownHook] DefaultLifecycleProcessor - Bean 'springBootLoggingLifecycle' completed its stop procedure
+[DEBUG] 2023-11-30 10:46:04.139 [SpringApplicationShutdownHook] AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+[DEBUG] 2023-11-30 10:46:04.139 [SpringApplicationShutdownHook] ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[DEBUG] 2023-11-30 10:47:11.235 [Thread-1] RestartClassLoader - Created RestartClassLoader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@12c252c
+[INFO ] 2023-11-30 10:47:11.581 [restartedMain] VueAndJavaApplication - Starting VueAndJavaApplication using Java 1.8.0_392 on L211629 with PID 19676 (C:\Users\mwilliard\git\sandbox\VueAndJava\build\classes\java\main started by mwilliard in C:\Users\mwilliard\git\sandbox\VueAndJava)
+[DEBUG] 2023-11-30 10:47:11.585 [restartedMain] VueAndJavaApplication - Running with Spring Boot v2.7.17, Spring v5.3.30
+[INFO ] 2023-11-30 10:47:11.586 [restartedMain] VueAndJavaApplication - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 2023-11-30 10:47:11.586 [restartedMain] SpringApplication - Loading source class org.williard.VueAndJava.VueAndJavaApplication
+[DEBUG] 2023-11-30 10:47:11.616 [restartedMain] ChangeableUrls - Matching URLs for reloading : [file:/C:/Users/mwilliard/git/sandbox/VueAndJava/build/classes/java/main/, file:/C:/Users/mwilliard/git/sandbox/VueAndJava/build/resources/main/]
+[DEBUG] 2023-11-30 10:47:11.616 [restartedMain] DevToolsSettings - Included patterns for restart : []
+[DEBUG] 2023-11-30 10:47:11.616 [restartedMain] DevToolsSettings - Excluded patterns for restart : [/spring-boot-actuator/(bin|build|out)/, /spring-boot-devtools/(bin|build|out)/, /spring-boot/(bin|build|out)/, /spring-boot-starter-[\w-]+/, /spring-boot-autoconfigure/(bin|build|out)/, /spring-boot-starter/(bin|build|out)/]
+[INFO ] 2023-11-30 10:47:11.616 [restartedMain] DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2023-11-30 10:47:11.617 [restartedMain] DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[DEBUG] 2023-11-30 10:47:11.617 [restartedMain] AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1afad54
+[DEBUG] 2023-11-30 10:47:11.629 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[DEBUG] 2023-11-30 10:47:11.639 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory'
+[DEBUG] 2023-11-30 10:47:11.675 [restartedMain] ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\mwilliard\git\sandbox\VueAndJava\build\classes\java\main\org\williard\VueAndJava\client\DictionaryClientImpl.class]
+[DEBUG] 2023-11-30 10:47:11.677 [restartedMain] ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\mwilliard\git\sandbox\VueAndJava\build\classes\java\main\org\williard\VueAndJava\config\RestTemplateConfig.class]
+[DEBUG] 2023-11-30 10:47:11.695 [restartedMain] ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\mwilliard\git\sandbox\VueAndJava\build\classes\java\main\org\williard\VueAndJava\controller\DefinitionController.class]
+[DEBUG] 2023-11-30 10:47:11.696 [restartedMain] ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\mwilliard\git\sandbox\VueAndJava\build\classes\java\main\org\williard\VueAndJava\service\DefinitionService.class]
+[DEBUG] 2023-11-30 10:47:12.102 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'propertySourcesPlaceholderConfigurer'
+[DEBUG] 2023-11-30 10:47:12.107 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.sql.init.dependency.DatabaseInitializationDependencyConfigurer$DependsOnDatabaseInitializationPostProcessor'
+[DEBUG] 2023-11-30 10:47:12.114 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+[DEBUG] 2023-11-30 10:47:12.115 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'preserveErrorControllerTargetClassPostProcessor'
+[DEBUG] 2023-11-30 10:47:12.116 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'forceAutoProxyCreatorToUseClassProxying'
+[DEBUG] 2023-11-30 10:47:12.116 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+[DEBUG] 2023-11-30 10:47:12.120 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[DEBUG] 2023-11-30 10:47:12.121 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+[DEBUG] 2023-11-30 10:47:12.123 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor'
+[DEBUG] 2023-11-30 10:47:12.124 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.context.internalConfigurationPropertiesBinder'
+[DEBUG] 2023-11-30 10:47:12.124 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.context.internalConfigurationPropertiesBinderFactory'
+[DEBUG] 2023-11-30 10:47:12.125 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+[DEBUG] 2023-11-30 10:47:12.145 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'webServerFactoryCustomizerBeanPostProcessor'
+[DEBUG] 2023-11-30 10:47:12.146 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'errorPageRegistrarBeanPostProcessor'
+[DEBUG] 2023-11-30 10:47:12.148 [restartedMain] UiApplicationContextUtils - Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@191d4c0]
+[DEBUG] 2023-11-30 10:47:12.148 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'tomcatServletWebServerFactory'
+[DEBUG] 2023-11-30 10:47:12.148 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat'
+[DEBUG] 2023-11-30 10:47:12.195 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'websocketServletWebServerCustomizer'
+[DEBUG] 2023-11-30 10:47:12.196 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration$TomcatWebSocketConfiguration'
+[DEBUG] 2023-11-30 10:47:12.197 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'servletWebServerFactoryCustomizer'
+[DEBUG] 2023-11-30 10:47:12.197 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryAutoConfiguration'
+[DEBUG] 2023-11-30 10:47:12.200 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+[DEBUG] 2023-11-30 10:47:12.206 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.context.properties.BoundConfigurationProperties'
+[DEBUG] 2023-11-30 10:47:12.225 [restartedMain] DefaultListableBeanFactory - Autowiring by type from bean name 'servletWebServerFactoryCustomizer' via factory method to bean named 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+[DEBUG] 2023-11-30 10:47:12.225 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'tomcatServletWebServerFactoryCustomizer'
+[DEBUG] 2023-11-30 10:47:12.226 [restartedMain] DefaultListableBeanFactory - Autowiring by type from bean name 'tomcatServletWebServerFactoryCustomizer' via factory method to bean named 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+[DEBUG] 2023-11-30 10:47:12.226 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'tomcatWebServerFactoryCustomizer'
+[DEBUG] 2023-11-30 10:47:12.226 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration$TomcatWebServerFactoryCustomizerConfiguration'
+[DEBUG] 2023-11-30 10:47:12.227 [restartedMain] DefaultListableBeanFactory - Autowiring by type from bean name 'tomcatWebServerFactoryCustomizer' via factory method to bean named 'environment'
+[DEBUG] 2023-11-30 10:47:12.227 [restartedMain] DefaultListableBeanFactory - Autowiring by type from bean name 'tomcatWebServerFactoryCustomizer' via factory method to bean named 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+[DEBUG] 2023-11-30 10:47:12.227 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'localeCharsetMappingsCustomizer'
+[DEBUG] 2023-11-30 10:47:12.227 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration'
+[DEBUG] 2023-11-30 10:47:12.230 [restartedMain] DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration' via constructor to bean named 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+[DEBUG] 2023-11-30 10:47:12.255 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'errorPageCustomizer'
+[DEBUG] 2023-11-30 10:47:12.256 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration'
+[DEBUG] 2023-11-30 10:47:12.256 [restartedMain] DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration' via constructor to bean named 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+[DEBUG] 2023-11-30 10:47:12.256 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'dispatcherServletRegistration'
+[DEBUG] 2023-11-30 10:47:12.256 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration'
+[DEBUG] 2023-11-30 10:47:12.257 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'dispatcherServlet'
+[DEBUG] 2023-11-30 10:47:12.257 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletConfiguration'
+[DEBUG] 2023-11-30 10:47:12.257 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties'
+[DEBUG] 2023-11-30 10:47:12.260 [restartedMain] DefaultListableBeanFactory - Autowiring by type from bean name 'dispatcherServlet' via factory method to bean named 'spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties'
+[DEBUG] 2023-11-30 10:47:12.266 [restartedMain] DefaultListableBeanFactory - Autowiring by type from bean name 'dispatcherServletRegistration' via factory method to bean named 'dispatcherServlet'
+[DEBUG] 2023-11-30 10:47:12.266 [restartedMain] DefaultListableBeanFactory - Autowiring by type from bean name 'dispatcherServletRegistration' via factory method to bean named 'spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties'
+[DEBUG] 2023-11-30 10:47:12.267 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'multipartConfigElement'
+[DEBUG] 2023-11-30 10:47:12.268 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.MultipartAutoConfiguration'
+[DEBUG] 2023-11-30 10:47:12.268 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'spring.servlet.multipart-org.springframework.boot.autoconfigure.web.servlet.MultipartProperties'
+[DEBUG] 2023-11-30 10:47:12.271 [restartedMain] DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.MultipartAutoConfiguration' via constructor to bean named 'spring.servlet.multipart-org.springframework.boot.autoconfigure.web.servlet.MultipartProperties'
+[DEBUG] 2023-11-30 10:47:12.274 [restartedMain] DefaultListableBeanFactory - Autowiring by type from bean name 'errorPageCustomizer' via factory method to bean named 'dispatcherServletRegistration'
+[DEBUG] 2023-11-30 10:47:12.319 [restartedMain] TomcatServletWebServerFactory - Code archive: C:\Users\mwilliard\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot\2.7.17\b686330883c83d4cdd684b4b0e382870ed1594f0\spring-boot-2.7.17.jar
+[DEBUG] 2023-11-30 10:47:12.320 [restartedMain] TomcatServletWebServerFactory - Code archive: C:\Users\mwilliard\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot\2.7.17\b686330883c83d4cdd684b4b0e382870ed1594f0\spring-boot-2.7.17.jar
+[DEBUG] 2023-11-30 10:47:12.320 [restartedMain] TomcatServletWebServerFactory - None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+[INFO ] 2023-11-30 10:47:12.362 [restartedMain] TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+[DEBUG] 2023-11-30 10:47:12.426 [restartedMain] ServletWebServerApplicationContext - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+[INFO ] 2023-11-30 10:47:12.426 [restartedMain] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 809 ms
+[DEBUG] 2023-11-30 10:47:12.428 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'requestContextFilter'
+[DEBUG] 2023-11-30 10:47:12.430 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'formContentFilter'
+[DEBUG] 2023-11-30 10:47:12.430 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration'
+[DEBUG] 2023-11-30 10:47:12.433 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'characterEncodingFilter'
+[DEBUG] 2023-11-30 10:47:12.437 [restartedMain] ServletContextInitializerBeans - Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+[DEBUG] 2023-11-30 10:47:12.437 [restartedMain] ServletContextInitializerBeans - Mapping servlets: dispatcherServlet urls=[/]
+[DEBUG] 2023-11-30 10:47:12.450 [restartedMain] OrderedRequestContextFilter - Filter 'requestContextFilter' configured for use
+[DEBUG] 2023-11-30 10:47:12.451 [restartedMain] OrderedCharacterEncodingFilter - Filter 'characterEncodingFilter' configured for use
+[DEBUG] 2023-11-30 10:47:12.451 [restartedMain] OrderedFormContentFilter - Filter 'formContentFilter' configured for use
+[DEBUG] 2023-11-30 10:47:12.459 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'vueAndJavaApplication'
+[DEBUG] 2023-11-30 10:47:12.460 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'dictionaryClientImpl'
+[DEBUG] 2023-11-30 10:47:12.462 [restartedMain] ConfigurationPropertySourcesPropertyResolver$DefaultResolver - Found key 'dictionary.apiUrl' in PropertySource 'Config resource 'class path resource [application.yml]' via location 'optional:classpath:/'' with value of type String
+[DEBUG] 2023-11-30 10:47:12.463 [restartedMain] PropertySourcesPropertyResolver - Found key 'dictionary.apiUrl' in PropertySource 'environmentProperties' with value of type String
+[DEBUG] 2023-11-30 10:47:12.463 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'restTemplate'
+[DEBUG] 2023-11-30 10:47:12.463 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'restTemplateConfig'
+[DEBUG] 2023-11-30 10:47:12.464 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'restTemplateBuilder'
+[DEBUG] 2023-11-30 10:47:12.464 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.client.RestTemplateAutoConfiguration'
+[DEBUG] 2023-11-30 10:47:12.464 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'restTemplateBuilderConfigurer'
+[DEBUG] 2023-11-30 10:47:12.466 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'messageConverters'
+[DEBUG] 2023-11-30 10:47:12.466 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration'
+[DEBUG] 2023-11-30 10:47:12.468 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'stringHttpMessageConverter'
+[DEBUG] 2023-11-30 10:47:12.468 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration$StringHttpMessageConverterConfiguration'
+[DEBUG] 2023-11-30 10:47:12.468 [restartedMain] DefaultListableBeanFactory - Autowiring by type from bean name 'stringHttpMessageConverter' via factory method to bean named 'environment'
+[DEBUG] 2023-11-30 10:47:12.472 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'mappingJackson2HttpMessageConverter'
+[DEBUG] 2023-11-30 10:47:12.472 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration$MappingJackson2HttpMessageConverterConfiguration'
+[DEBUG] 2023-11-30 10:47:12.473 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'jacksonObjectMapper'
+[DEBUG] 2023-11-30 10:47:12.473 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration'
+[DEBUG] 2023-11-30 10:47:12.474 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration'
+[DEBUG] 2023-11-30 10:47:12.474 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'standardJacksonObjectMapperBuilderCustomizer'
+[DEBUG] 2023-11-30 10:47:12.474 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration'
+[DEBUG] 2023-11-30 10:47:12.475 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties'
+[DEBUG] 2023-11-30 10:47:12.477 [restartedMain] DefaultListableBeanFactory - Autowiring by type from bean name 'standardJacksonObjectMapperBuilderCustomizer' via factory method to bean named 'org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1afad54'
+[DEBUG] 2023-11-30 10:47:12.477 [restartedMain] DefaultListableBeanFactory - Autowiring by type from bean name 'standardJacksonObjectMapperBuilderCustomizer' via factory method to bean named 'spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties'
+[DEBUG] 2023-11-30 10:47:12.478 [restartedMain] DefaultListableBeanFactory - Autowiring by type from bean name 'jacksonObjectMapperBuilder' via factory method to bean named 'org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1afad54'
+[DEBUG] 2023-11-30 10:47:12.478 [restartedMain] DefaultListableBeanFactory - Autowiring by type from bean name 'jacksonObjectMapperBuilder' via factory method to bean named 'standardJacksonObjectMapperBuilderCustomizer'
+[DEBUG] 2023-11-30 10:47:12.479 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'parameterNamesModule'
+[DEBUG] 2023-11-30 10:47:12.479 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration'
+[DEBUG] 2023-11-30 10:47:12.481 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'jsonComponentModule'
+[DEBUG] 2023-11-30 10:47:12.481 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration'
+[DEBUG] 2023-11-30 10:47:12.488 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'jsonMixinModule'
+[DEBUG] 2023-11-30 10:47:12.489 [restartedMain] DefaultListableBeanFactory - Autowiring by type from bean name 'jsonMixinModule' via factory method to bean named 'org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1afad54'
+[DEBUG] 2023-11-30 10:47:12.489 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.AutoConfigurationPackages'
+[DEBUG] 2023-11-30 10:47:12.489 [restartedMain] AutoConfigurationPackages - @EnableAutoConfiguration was declared on a class in the package 'org.williard.VueAndJava'. Automatic @Repository and @Entity scanning is enabled.
+[DEBUG] 2023-11-30 10:47:12.493 [restartedMain] DefaultListableBeanFactory - Autowiring by type from bean name 'jacksonObjectMapper' via factory method to bean named 'jacksonObjectMapperBuilder'
+[DEBUG] 2023-11-30 10:47:12.506 [restartedMain] DefaultListableBeanFactory - Autowiring by type from bean name 'mappingJackson2HttpMessageConverter' via factory method to bean named 'jacksonObjectMapper'
+[DEBUG] 2023-11-30 10:47:12.511 [restartedMain] DefaultListableBeanFactory - Autowiring by type from bean name 'restTemplateBuilder' via factory method to bean named 'restTemplateBuilderConfigurer'
+[DEBUG] 2023-11-30 10:47:12.512 [restartedMain] DefaultListableBeanFactory - Autowiring by type from bean name 'restTemplate' via factory method to bean named 'restTemplateBuilder'
+[DEBUG] 2023-11-30 10:47:12.520 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'definitionController'
+[DEBUG] 2023-11-30 10:47:12.522 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'definitionService'
+[DEBUG] 2023-11-30 10:47:12.522 [restartedMain] DefaultListableBeanFactory - Autowiring by type from bean name 'definitionService' via constructor to bean named 'dictionaryClientImpl'
+[DEBUG] 2023-11-30 10:47:12.522 [restartedMain] DefaultListableBeanFactory - Autowiring by type from bean name 'definitionController' via constructor to bean named 'definitionService'
+[DEBUG] 2023-11-30 10:47:12.523 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration'
+[DEBUG] 2023-11-30 10:47:12.523 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration'
+[DEBUG] 2023-11-30 10:47:12.523 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.context.properties.EnableConfigurationPropertiesRegistrar.methodValidationExcludeFilter'
+[DEBUG] 2023-11-30 10:47:12.524 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration'
+[DEBUG] 2023-11-30 10:47:12.525 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration'
+[DEBUG] 2023-11-30 10:47:12.525 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'taskExecutorBuilder'
+[DEBUG] 2023-11-30 10:47:12.526 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'spring.task.execution-org.springframework.boot.autoconfigure.task.TaskExecutionProperties'
+[DEBUG] 2023-11-30 10:47:12.527 [restartedMain] DefaultListableBeanFactory - Autowiring by type from bean name 'taskExecutorBuilder' via factory method to bean named 'spring.task.execution-org.springframework.boot.autoconfigure.task.TaskExecutionProperties'
+[DEBUG] 2023-11-30 10:47:12.528 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration'
+[DEBUG] 2023-11-30 10:47:12.530 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'error'
+[DEBUG] 2023-11-30 10:47:12.530 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'beanNameViewResolver'
+[DEBUG] 2023-11-30 10:47:12.531 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$DefaultErrorViewResolverConfiguration'
+[DEBUG] 2023-11-30 10:47:12.531 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'spring.web-org.springframework.boot.autoconfigure.web.WebProperties'
+[DEBUG] 2023-11-30 10:47:12.537 [restartedMain] DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$DefaultErrorViewResolverConfiguration' via constructor to bean named 'org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1afad54'
+[DEBUG] 2023-11-30 10:47:12.537 [restartedMain] DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$DefaultErrorViewResolverConfiguration' via constructor to bean named 'spring.web-org.springframework.boot.autoconfigure.web.WebProperties'
+[DEBUG] 2023-11-30 10:47:12.537 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'conventionErrorViewResolver'
+[DEBUG] 2023-11-30 10:47:12.538 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'errorAttributes'
+[DEBUG] 2023-11-30 10:47:12.539 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'basicErrorController'
+[DEBUG] 2023-11-30 10:47:12.539 [restartedMain] DefaultListableBeanFactory - Autowiring by type from bean name 'basicErrorController' via factory method to bean named 'errorAttributes'
+[DEBUG] 2023-11-30 10:47:12.541 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration'
+[DEBUG] 2023-11-30 10:47:12.542 [restartedMain] DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration' via constructor to bean named 'spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties'
+[DEBUG] 2023-11-30 10:47:12.542 [restartedMain] DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration' via constructor to bean named 'spring.web-org.springframework.boot.autoconfigure.web.WebProperties'
+[DEBUG] 2023-11-30 10:47:12.542 [restartedMain] DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration' via constructor to bean named 'org.springframework.beans.factory.support.DefaultListableBeanFactory@24f49'
+[DEBUG] 2023-11-30 10:47:12.552 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter'
+[DEBUG] 2023-11-30 10:47:12.553 [restartedMain] DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter' via constructor to bean named 'spring.web-org.springframework.boot.autoconfigure.web.WebProperties'
+[DEBUG] 2023-11-30 10:47:12.553 [restartedMain] DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter' via constructor to bean named 'spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties'
+[DEBUG] 2023-11-30 10:47:12.553 [restartedMain] DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter' via constructor to bean named 'org.springframework.beans.factory.support.DefaultListableBeanFactory@24f49'
+[DEBUG] 2023-11-30 10:47:12.553 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'resourceHandlerRegistrationCustomizer'
+[DEBUG] 2023-11-30 10:47:12.553 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$ResourceChainCustomizerConfiguration'
+[DEBUG] 2023-11-30 10:47:12.554 [restartedMain] DefaultListableBeanFactory - Autowiring by type from bean name 'resourceHandlerRegistrationCustomizer' via factory method to bean named 'spring.web-org.springframework.boot.autoconfigure.web.WebProperties'
+[DEBUG] 2023-11-30 10:47:12.555 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'swaggerWebMvcConfigurer'
+[DEBUG] 2023-11-30 10:47:12.555 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springdoc.webmvc.ui.SwaggerConfig'
+[DEBUG] 2023-11-30 10:47:12.556 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springdoc.core.SwaggerUiConfigParameters'
+[DEBUG] 2023-11-30 10:47:12.557 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springdoc.core.SwaggerUiConfigProperties'
+[DEBUG] 2023-11-30 10:47:12.561 [restartedMain] DefaultListableBeanFactory - Autowiring by type from bean name 'org.springdoc.core.SwaggerUiConfigParameters' via constructor to bean named 'org.springdoc.core.SwaggerUiConfigProperties'
+[DEBUG] 2023-11-30 10:47:12.566 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'indexPageTransformer'
+[DEBUG] 2023-11-30 10:47:12.566 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springdoc.core.SwaggerUiOAuthProperties'
+[DEBUG] 2023-11-30 10:47:12.568 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'swaggerWelcome'
+[DEBUG] 2023-11-30 10:47:12.568 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springdoc.core.SpringDocConfigProperties'
+[DEBUG] 2023-11-30 10:47:12.573 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'springWebProvider'
+[DEBUG] 2023-11-30 10:47:12.574 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springdoc.webmvc.core.SpringDocWebMvcConfiguration'
+[DEBUG] 2023-11-30 10:47:12.582 [restartedMain] DefaultListableBeanFactory - Autowiring by type from bean name 'swaggerWelcome' via factory method to bean named 'org.springdoc.core.SwaggerUiConfigProperties'
+[DEBUG] 2023-11-30 10:47:12.582 [restartedMain] DefaultListableBeanFactory - Autowiring by type from bean name 'swaggerWelcome' via factory method to bean named 'org.springdoc.core.SpringDocConfigProperties'
+[DEBUG] 2023-11-30 10:47:12.582 [restartedMain] DefaultListableBeanFactory - Autowiring by type from bean name 'swaggerWelcome' via factory method to bean named 'org.springdoc.core.SwaggerUiConfigParameters'
+[DEBUG] 2023-11-30 10:47:12.582 [restartedMain] DefaultListableBeanFactory - Autowiring by type from bean name 'swaggerWelcome' via factory method to bean named 'springWebProvider'
+[DEBUG] 2023-11-30 10:47:12.590 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'springDocObjectMapperProvider'
+[DEBUG] 2023-11-30 10:47:12.590 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springdoc.core.SpringDocConfiguration'
+[DEBUG] 2023-11-30 10:47:12.592 [restartedMain] DefaultListableBeanFactory - Autowiring by type from bean name 'springDocObjectMapperProvider' via factory method to bean named 'org.springdoc.core.SpringDocConfigProperties'
+[DEBUG] 2023-11-30 10:47:12.606 [restartedMain] DefaultListableBeanFactory - Autowiring by type from bean name 'indexPageTransformer' via factory method to bean named 'org.springdoc.core.SwaggerUiConfigProperties'
+[DEBUG] 2023-11-30 10:47:12.606 [restartedMain] DefaultListableBeanFactory - Autowiring by type from bean name 'indexPageTransformer' via factory method to bean named 'org.springdoc.core.SwaggerUiOAuthProperties'
+[DEBUG] 2023-11-30 10:47:12.606 [restartedMain] DefaultListableBeanFactory - Autowiring by type from bean name 'indexPageTransformer' via factory method to bean named 'org.springdoc.core.SwaggerUiConfigParameters'
+[DEBUG] 2023-11-30 10:47:12.606 [restartedMain] DefaultListableBeanFactory - Autowiring by type from bean name 'indexPageTransformer' via factory method to bean named 'swaggerWelcome'
+[DEBUG] 2023-11-30 10:47:12.606 [restartedMain] DefaultListableBeanFactory - Autowiring by type from bean name 'indexPageTransformer' via factory method to bean named 'springDocObjectMapperProvider'
+[DEBUG] 2023-11-30 10:47:12.608 [restartedMain] DefaultListableBeanFactory - Autowiring by type from bean name 'swaggerWebMvcConfigurer' via factory method to bean named 'org.springdoc.core.SwaggerUiConfigParameters'
+[DEBUG] 2023-11-30 10:47:12.608 [restartedMain] DefaultListableBeanFactory - Autowiring by type from bean name 'swaggerWebMvcConfigurer' via factory method to bean named 'indexPageTransformer'
+[DEBUG] 2023-11-30 10:47:12.608 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'requestMappingHandlerAdapter'
+[DEBUG] 2023-11-30 10:47:12.609 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcContentNegotiationManager'
+[DEBUG] 2023-11-30 10:47:12.613 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcConversionService'
+[DEBUG] 2023-11-30 10:47:12.617 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcValidator'
+[DEBUG] 2023-11-30 10:47:12.622 [restartedMain] OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider
+javax.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+	at javax.validation.Validation$GenericBootstrapImpl.configure(Validation.java:291) ~[jakarta.validation-api-2.0.2.jar:?]
+	at org.springframework.validation.beanvalidation.LocalValidatorFactoryBean.afterPropertiesSet(LocalValidatorFactoryBean.java:275) ~[spring-context-5.3.30.jar:5.3.30]
+	at org.springframework.validation.beanvalidation.OptionalValidatorFactoryBean.afterPropertiesSet(OptionalValidatorFactoryBean.java:40) ~[spring-context-5.3.30.jar:5.3.30]
+	at org.springframework.boot.autoconfigure.validation.ValidatorAdapter.afterPropertiesSet(ValidatorAdapter.java:84) ~[spring-boot-autoconfigure-2.7.17.jar:2.7.17]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863) ~[spring-beans-5.3.30.jar:5.3.30]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800) ~[spring-beans-5.3.30.jar:5.3.30]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620) ~[spring-beans-5.3.30.jar:5.3.30]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.30.jar:5.3.30]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.30.jar:5.3.30]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.30.jar:5.3.30]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.30.jar:5.3.30]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.30.jar:5.3.30]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.30.jar:5.3.30]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391) ~[spring-beans-5.3.30.jar:5.3.30]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311) ~[spring-beans-5.3.30.jar:5.3.30]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:911) ~[spring-beans-5.3.30.jar:5.3.30]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:788) ~[spring-beans-5.3.30.jar:5.3.30]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:536) ~[spring-beans-5.3.30.jar:5.3.30]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352) ~[spring-beans-5.3.30.jar:5.3.30]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195) ~[spring-beans-5.3.30.jar:5.3.30]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.30.jar:5.3.30]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.30.jar:5.3.30]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.30.jar:5.3.30]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.30.jar:5.3.30]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.30.jar:5.3.30]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.30.jar:5.3.30]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955) ~[spring-beans-5.3.30.jar:5.3.30]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:921) ~[spring-context-5.3.30.jar:5.3.30]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.30.jar:5.3.30]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147) ~[spring-boot-2.7.17.jar:2.7.17]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732) ~[spring-boot-2.7.17.jar:2.7.17]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:409) ~[spring-boot-2.7.17.jar:2.7.17]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-2.7.17.jar:2.7.17]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300) ~[spring-boot-2.7.17.jar:2.7.17]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1289) ~[spring-boot-2.7.17.jar:2.7.17]
+	at org.williard.VueAndJava.VueAndJavaApplication.main(VueAndJavaApplication.java:10) ~[main/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_392]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_392]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_392]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_392]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-2.7.17.jar:2.7.17]
+[DEBUG] 2023-11-30 10:47:12.624 [restartedMain] DefaultListableBeanFactory - Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcContentNegotiationManager'
+[DEBUG] 2023-11-30 10:47:12.625 [restartedMain] DefaultListableBeanFactory - Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcConversionService'
+[DEBUG] 2023-11-30 10:47:12.625 [restartedMain] DefaultListableBeanFactory - Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcValidator'
+[DEBUG] 2023-11-30 10:47:12.625 [restartedMain] DefaultListableBeanFactory - Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcContentNegotiationManager'
+[DEBUG] 2023-11-30 10:47:12.625 [restartedMain] DefaultListableBeanFactory - Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcConversionService'
+[DEBUG] 2023-11-30 10:47:12.625 [restartedMain] DefaultListableBeanFactory - Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcValidator'
+[DEBUG] 2023-11-30 10:47:12.631 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'applicationTaskExecutor'
+[DEBUG] 2023-11-30 10:47:12.632 [restartedMain] DefaultListableBeanFactory - Autowiring by type from bean name 'applicationTaskExecutor' via factory method to bean named 'taskExecutorBuilder'
+[DEBUG] 2023-11-30 10:47:12.634 [restartedMain] ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[DEBUG] 2023-11-30 10:47:12.643 [restartedMain] RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+[DEBUG] 2023-11-30 10:47:12.659 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'welcomePageHandlerMapping'
+[DEBUG] 2023-11-30 10:47:12.659 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcResourceUrlProvider'
+[DEBUG] 2023-11-30 10:47:12.662 [restartedMain] DefaultListableBeanFactory - Autowiring by type from bean name 'welcomePageHandlerMapping' via factory method to bean named 'org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1afad54'
+[DEBUG] 2023-11-30 10:47:12.662 [restartedMain] DefaultListableBeanFactory - Autowiring by type from bean name 'welcomePageHandlerMapping' via factory method to bean named 'mvcConversionService'
+[DEBUG] 2023-11-30 10:47:12.662 [restartedMain] DefaultListableBeanFactory - Autowiring by type from bean name 'welcomePageHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+[INFO ] 2023-11-30 10:47:12.664 [restartedMain] WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+[DEBUG] 2023-11-30 10:47:12.668 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'welcomePageNotAcceptableHandlerMapping'
+[DEBUG] 2023-11-30 10:47:12.668 [restartedMain] DefaultListableBeanFactory - Autowiring by type from bean name 'welcomePageNotAcceptableHandlerMapping' via factory method to bean named 'org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1afad54'
+[DEBUG] 2023-11-30 10:47:12.668 [restartedMain] DefaultListableBeanFactory - Autowiring by type from bean name 'welcomePageNotAcceptableHandlerMapping' via factory method to bean named 'mvcConversionService'
+[DEBUG] 2023-11-30 10:47:12.668 [restartedMain] DefaultListableBeanFactory - Autowiring by type from bean name 'welcomePageNotAcceptableHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+[DEBUG] 2023-11-30 10:47:12.669 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'localeResolver'
+[DEBUG] 2023-11-30 10:47:12.670 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'themeResolver'
+[DEBUG] 2023-11-30 10:47:12.671 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'flashMapManager'
+[DEBUG] 2023-11-30 10:47:12.672 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'requestMappingHandlerMapping'
+[DEBUG] 2023-11-30 10:47:12.672 [restartedMain] DefaultListableBeanFactory - Autowiring by type from bean name 'requestMappingHandlerMapping' via factory method to bean named 'mvcContentNegotiationManager'
+[DEBUG] 2023-11-30 10:47:12.672 [restartedMain] DefaultListableBeanFactory - Autowiring by type from bean name 'requestMappingHandlerMapping' via factory method to bean named 'mvcConversionService'
+[DEBUG] 2023-11-30 10:47:12.672 [restartedMain] DefaultListableBeanFactory - Autowiring by type from bean name 'requestMappingHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+[DEBUG] 2023-11-30 10:47:12.688 [restartedMain] Mappings - 
+	o.w.V.c.DefinitionController:
+	{GET [/api/v1/define/{word}]}: getInvoices(String)
+[DEBUG] 2023-11-30 10:47:12.691 [restartedMain] Mappings - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+[DEBUG] 2023-11-30 10:47:12.702 [restartedMain] Mappings - 
+	o.s.w.a.OpenApiWebMvcResource:
+	{GET [/v3/api-docs], produces [application/json]}: openapiJson(HttpServletRequest,String,Locale)
+	{GET [/v3/api-docs.yaml], produces [application/vnd.oai.openapi]}: openapiYaml(HttpServletRequest,String,Locale)
+[DEBUG] 2023-11-30 10:47:12.703 [restartedMain] Mappings - 
+	o.s.w.u.SwaggerWelcomeWebMvc:
+	{GET [/swagger-ui.html]}: redirectToUi(HttpServletRequest)
+[DEBUG] 2023-11-30 10:47:12.704 [restartedMain] Mappings - 
+	o.s.w.u.SwaggerConfigResource:
+	{GET [/v3/api-docs/swagger-config], produces [application/json]}: openapiJson(HttpServletRequest)
+[DEBUG] 2023-11-30 10:47:12.705 [restartedMain] RequestMappingHandlerMapping - 7 mappings in 'requestMappingHandlerMapping'
+[DEBUG] 2023-11-30 10:47:12.705 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcPatternParser'
+[DEBUG] 2023-11-30 10:47:12.706 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcUrlPathHelper'
+[DEBUG] 2023-11-30 10:47:12.706 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcPathMatcher'
+[DEBUG] 2023-11-30 10:47:12.707 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'viewControllerHandlerMapping'
+[DEBUG] 2023-11-30 10:47:12.707 [restartedMain] DefaultListableBeanFactory - Autowiring by type from bean name 'viewControllerHandlerMapping' via factory method to bean named 'mvcConversionService'
+[DEBUG] 2023-11-30 10:47:12.707 [restartedMain] DefaultListableBeanFactory - Autowiring by type from bean name 'viewControllerHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+[DEBUG] 2023-11-30 10:47:12.707 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'beanNameHandlerMapping'
+[DEBUG] 2023-11-30 10:47:12.708 [restartedMain] DefaultListableBeanFactory - Autowiring by type from bean name 'beanNameHandlerMapping' via factory method to bean named 'mvcConversionService'
+[DEBUG] 2023-11-30 10:47:12.708 [restartedMain] DefaultListableBeanFactory - Autowiring by type from bean name 'beanNameHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+[DEBUG] 2023-11-30 10:47:12.709 [restartedMain] Mappings - 'beanNameHandlerMapping' {}
+[DEBUG] 2023-11-30 10:47:12.709 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'routerFunctionMapping'
+[DEBUG] 2023-11-30 10:47:12.709 [restartedMain] DefaultListableBeanFactory - Autowiring by type from bean name 'routerFunctionMapping' via factory method to bean named 'mvcConversionService'
+[DEBUG] 2023-11-30 10:47:12.709 [restartedMain] DefaultListableBeanFactory - Autowiring by type from bean name 'routerFunctionMapping' via factory method to bean named 'mvcResourceUrlProvider'
+[DEBUG] 2023-11-30 10:47:12.711 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'resourceHandlerMapping'
+[DEBUG] 2023-11-30 10:47:12.711 [restartedMain] DefaultListableBeanFactory - Autowiring by type from bean name 'resourceHandlerMapping' via factory method to bean named 'mvcContentNegotiationManager'
+[DEBUG] 2023-11-30 10:47:12.711 [restartedMain] DefaultListableBeanFactory - Autowiring by type from bean name 'resourceHandlerMapping' via factory method to bean named 'mvcConversionService'
+[DEBUG] 2023-11-30 10:47:12.711 [restartedMain] DefaultListableBeanFactory - Autowiring by type from bean name 'resourceHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+[DEBUG] 2023-11-30 10:47:12.986 [restartedMain] Mappings - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]], /swagger-ui*/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]}
+[DEBUG] 2023-11-30 10:47:12.987 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'defaultServletHandlerMapping'
+[DEBUG] 2023-11-30 10:47:12.987 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'handlerFunctionAdapter'
+[DEBUG] 2023-11-30 10:47:12.987 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcUriComponentsContributor'
+[DEBUG] 2023-11-30 10:47:12.988 [restartedMain] DefaultListableBeanFactory - Autowiring by type from bean name 'mvcUriComponentsContributor' via factory method to bean named 'mvcConversionService'
+[DEBUG] 2023-11-30 10:47:12.988 [restartedMain] DefaultListableBeanFactory - Autowiring by type from bean name 'mvcUriComponentsContributor' via factory method to bean named 'requestMappingHandlerAdapter'
+[DEBUG] 2023-11-30 10:47:12.988 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'httpRequestHandlerAdapter'
+[DEBUG] 2023-11-30 10:47:12.988 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'simpleControllerHandlerAdapter'
+[DEBUG] 2023-11-30 10:47:12.989 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'handlerExceptionResolver'
+[DEBUG] 2023-11-30 10:47:12.989 [restartedMain] DefaultListableBeanFactory - Autowiring by type from bean name 'handlerExceptionResolver' via factory method to bean named 'mvcContentNegotiationManager'
+[DEBUG] 2023-11-30 10:47:12.991 [restartedMain] ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+[DEBUG] 2023-11-30 10:47:12.993 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcViewResolver'
+[DEBUG] 2023-11-30 10:47:12.993 [restartedMain] DefaultListableBeanFactory - Autowiring by type from bean name 'mvcViewResolver' via factory method to bean named 'mvcContentNegotiationManager'
+[DEBUG] 2023-11-30 10:47:12.994 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'viewNameTranslator'
+[DEBUG] 2023-11-30 10:47:12.994 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'defaultViewResolver'
+[DEBUG] 2023-11-30 10:47:12.997 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'viewResolver'
+[DEBUG] 2023-11-30 10:47:12.997 [restartedMain] DefaultListableBeanFactory - Autowiring by type from bean name 'viewResolver' via factory method to bean named 'org.springframework.beans.factory.support.DefaultListableBeanFactory@24f49'
+[DEBUG] 2023-11-30 10:47:12.998 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'viewResolver'
+[DEBUG] 2023-11-30 10:47:12.999 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springdoc.core.SpringDocConfiguration$SpringDocSpringDataWebPropertiesProvider'
+[DEBUG] 2023-11-30 10:47:12.999 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'springDataWebPropertiesProvider'
+[DEBUG] 2023-11-30 10:47:13.000 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springdoc.core.SpringDocConfiguration$WebConversionServiceConfiguration'
+[DEBUG] 2023-11-30 10:47:13.000 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'webConversionServiceProvider'
+[DEBUG] 2023-11-30 10:47:13.000 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springdoc.core.SpringDocConfiguration$OpenApiResourceAdvice'
+[DEBUG] 2023-11-30 10:47:13.001 [restartedMain] DefaultListableBeanFactory - Autowiring by type from bean name 'org.springdoc.core.SpringDocConfiguration$OpenApiResourceAdvice' via constructor to bean named 'org.springdoc.core.SpringDocConfiguration'
+[DEBUG] 2023-11-30 10:47:13.002 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'localSpringDocParameterNameDiscoverer'
+[DEBUG] 2023-11-30 10:47:13.002 [restartedMain] DefaultListableBeanFactory - Creating shared instance of singleton bean 'additionalModelsConverter'
+[DEBUG] 2023-11-30 10:47:13.002 [restartedMain] DefaultListableBeanFactory - Autowiring by type from bean name 'additionalModelsConverter' via factory method to bean named 'springDocObjectMapperProvider'

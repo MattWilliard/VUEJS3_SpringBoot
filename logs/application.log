@@ -1,0 +1,16 @@
+[DEBUG] 2023-11-30 14:48:00.554 [restartedMain] ConfigurationPropertySourcesPropertyResolver$DefaultResolver - Found key 'spring.liveBeansView.mbeanDomain' in PropertySource 'systemProperties' with value of type String
+[INFO ] 2023-11-30 14:48:00.558 [restartedMain] VueAndJavaApplication - Started VueAndJavaApplication in 0.479 seconds (JVM running for 607.005)
+[DEBUG] 2023-11-30 14:48:00.559 [restartedMain] ApplicationAvailabilityBean - Application availability state LivenessState changed to CORRECT
+[INFO ] 2023-11-30 14:48:00.559 [restartedMain] ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[DEBUG] 2023-11-30 14:48:00.560 [restartedMain] ApplicationAvailabilityBean - Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+[DEBUG] 2023-11-30 14:50:29.485 [SpringApplicationShutdownHook] ApplicationAvailabilityBean - Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+[DEBUG] 2023-11-30 14:50:29.486 [SpringApplicationShutdownHook] AnnotationConfigServletWebServerApplicationContext - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@b289da, started on Thu Nov 30 14:48:00 EST 2023
+[DEBUG] 2023-11-30 14:50:29.486 [SpringApplicationShutdownHook] ConfigurationPropertySourcesPropertyResolver$DefaultResolver - Found key 'spring.liveBeansView.mbeanDomain' in PropertySource 'systemProperties' with value of type String
+[DEBUG] 2023-11-30 14:50:29.486 [SpringApplicationShutdownHook] DefaultLifecycleProcessor - Stopping beans in phase 2147483647
+[DEBUG] 2023-11-30 14:50:29.487 [SpringApplicationShutdownHook] DefaultLifecycleProcessor - Bean 'webServerGracefulShutdown' completed its stop procedure
+[DEBUG] 2023-11-30 14:50:29.487 [SpringApplicationShutdownHook] DefaultLifecycleProcessor - Stopping beans in phase 2147483646
+[DEBUG] 2023-11-30 14:50:29.650 [SpringApplicationShutdownHook] DefaultLifecycleProcessor - Bean 'webServerStartStop' completed its stop procedure
+[DEBUG] 2023-11-30 14:50:29.650 [SpringApplicationShutdownHook] DefaultLifecycleProcessor - Stopping beans in phase -2147483647
+[DEBUG] 2023-11-30 14:50:29.651 [SpringApplicationShutdownHook] DefaultLifecycleProcessor - Bean 'springBootLoggingLifecycle' completed its stop procedure
+[DEBUG] 2023-11-30 14:50:29.651 [SpringApplicationShutdownHook] AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+[DEBUG] 2023-11-30 14:50:29.651 [SpringApplicationShutdownHook] ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'

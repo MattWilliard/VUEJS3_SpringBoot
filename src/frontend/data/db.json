@@ -1,0 +1,306 @@
+{
+  "tasks": [
+    {
+      "text": "Complete Timesheet",
+      "day": "Monday - Friday @4:30 PM",
+      "reminder": true,
+      "id": 1
+    },
+    {
+      "text": "Meeting with Chris",
+      "day": "Tuesday 812/5/2023 @ 11am",
+      "reminder": true,
+      "id": 4
+    }
+  ],
+  "words": [
+    {
+      "id": 1,
+      "text": "effect"
+    },
+    {
+      "id": 2,
+      "text": "averse"
+    },
+    {
+      "id": 3,
+      "text": "less"
+    },
+    {
+      "id": 4,
+      "text": "irregardless"
+    },
+    {
+      "id": 5,
+      "text": "complementary"
+    },
+    {
+      "id": 6,
+      "text": "literally"
+    },
+    {
+      "id": 7,
+      "text": "appraise"
+    },
+    {
+      "id": 8,
+      "text": "disinterested"
+    },
+    {
+      "id": 9,
+      "text": "principal"
+    },
+    {
+      "id": 10,
+      "text": "enormity"
+    },
+    {
+      "id": 11,
+      "text": "imply"
+    },
+    {
+      "id": 12,
+      "text": "adverse"
+    },
+    {
+      "id": 13,
+      "text": "fulsome"
+    },
+    {
+      "id": 14,
+      "text": "moot"
+    },
+    {
+      "id": 15,
+      "text": "proscribe"
+    },
+    {
+      "id": 16,
+      "text": "accept"
+    },
+    {
+      "id": 17,
+      "text": "dependable"
+    },
+    {
+      "text": "fury",
+      "id": 18
+    },
+    {
+      "text": "happy",
+      "id": 19
+    },
+    {
+      "text": "supplement",
+      "id": 21
+    },
+    {
+      "text": "supply",
+      "id": 22
+    },
+    {
+      "text": "horny",
+      "id": 23
+    },
+    {
+      "text": "hangry",
+      "id": 24
+    },
+    {
+      "text": "fasten",
+      "id": 25
+    },
+    {
+      "text": "rector",
+      "id": 26
+    },
+    {
+      "text": "grungy",
+      "id": 27
+    },
+    {
+      "text": "grapple",
+      "id": 28
+    },
+    {
+      "text": "holy",
+      "id": 29
+    },
+    {
+      "text": "destroy",
+      "id": 30
+    },
+    {
+      "text": "dialect",
+      "id": 31
+    },
+    {
+      "text": "eviscerate",
+      "id": 32
+    },
+    {
+      "text": "event horizon",
+      "id": 33
+    },
+    {
+      "text": "quarks",
+      "id": 34
+    },
+    {
+      "text": "quirk",
+      "id": 35
+    },
+    {
+      "text": "sychopant",
+      "id": 36
+    },
+    {
+      "text": "habit",
+      "id": 37
+    },
+    {
+      "text": "harp",
+      "id": 38
+    },
+    {
+      "text": "g",
+      "id": 39
+    },
+    {
+      "text": "hell",
+      "id": 40
+    },
+    {
+      "text": "test",
+      "id": 41
+    },
+    {
+      "text": "kill",
+      "id": 42
+    },
+    {
+      "text": "hello",
+      "id": 43
+    },
+    {
+      "text": "cabaret",
+      "id": 44
+    },
+    {
+      "text": "crush",
+      "id": 45
+    },
+    {
+      "text": "fort",
+      "id": 46
+    },
+    {
+      "text": "clamor",
+      "id": 47
+    },
+    {
+      "text": "clout",
+      "id": 48
+    },
+    {
+      "text": "bold",
+      "id": 49
+    },
+    {
+      "text": "help",
+      "id": 50
+    },
+    {
+      "text": "killer",
+      "id": 51
+    },
+    {
+      "text": "conduit",
+      "id": 52
+    },
+    {
+      "text": "zoo",
+      "id": 53
+    },
+    {
+      "text": "kabob",
+      "id": 54
+    },
+    {
+      "text": "revert",
+      "id": 55
+    },
+    {
+      "text": "hubris",
+      "id": 56
+    },
+    {
+      "text": "heretic",
+      "id": 57
+    },
+    {
+      "text": "court",
+      "id": 58
+    },
+    {
+      "text": "killjoy",
+      "id": 59
+    },
+    {
+      "text": "dough",
+      "id": 60
+    },
+    {
+      "text": "constant",
+      "id": 61
+    },
+    {
+      "text": "crisp",
+      "id": 62
+    },
+    {
+      "text": "flatulate",
+      "id": 63
+    },
+    {
+      "text": "procrastinate",
+      "id": 64
+    },
+    {
+      "text": "woman",
+      "id": 65
+    },
+    {
+      "text": "womanize",
+      "id": 66
+    },
+    {
+      "text": "bitcoin",
+      "id": 67
+    },
+    {
+      "text": "god",
+      "id": 68
+    },
+    {
+      "text": "cannon",
+      "id": 69
+    },
+    {
+      "text": "clock",
+      "id": 70
+    },
+    {
+      "text": "catholic",
+      "id": 71
+    },
+    {
+      "text": "cat",
+      "id": 72
+    },
+    {
+      "text": "catapult",
+      "id": 73
+    }
+  ]
+}

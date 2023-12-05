@@ -1,0 +1,39 @@
+{
+  "name": "vue-task-tracker",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve --host 0.0.0.0 --port 8080",
+    "build": "vue-cli-service build",
+    "backend": "json-server --watch data/db.json --host 0.0.0.0 --port 5000",
+    "local": "concurrently \"npm run backend\" \"npm run serve -- --mode=local\" ",
+    "prod": "concurrently \"npm run backend\" \"npm run serve -- --mode=production\" "
+  },
+  "dependencies": {
+    "@vitejs/plugin-vue": "^4.5.0",
+    "concurrently": "^8.2.2",
+    "encoding-plugin": "^2.0.2",
+    "json-server": "^0.17.4",
+    "lodash.debounce": "^4.0.8",
+    "mqtt": "^5.3.1",
+    "pinia": "^2.1.7",
+    "underscore": "^1.13.6",
+    "vite": "^5.0.4",
+    "vue": "^3.2.13",
+    "vue3-toastify": "^0.1.14",
+    "ws": "^8.14.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-typescript": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "dotenv-webpack": "^8.0.1",
+    "typescript": "~4.5.5",
+    "vue-router": "^4.2.5"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ]
+}
